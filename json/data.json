@@ -1,0 +1,2225 @@
+[
+  {
+    "indx": "cts",
+    "id": "Kecamatan Peso",
+    "ids": "Peso",
+    "Sesuai": 17316.36,
+    "SesuaiBersyarat": 22075.02,
+    "GrandTotal": 39391.38,
+    "Kolam": 10290.58,
+    "Minapadi": 0.19,
+    "Karamba": 641.85,
+    "Tambak": 0.0,
+    "Penangkapan": 828.88,
+    "SUM": 11761.5,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 1016.29,
+        "Bersyarat": 374.07,
+        "Usaha": "Karamba",
+        "Sesuai2": 406.52,
+        "Bersyarat2": 149.63,
+        "Totaly": 556.14
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 156.18,
+        "Bersyarat": 115.27,
+        "Usaha": "Kolam",
+        "Sesuai2": 156.18,
+        "Bersyarat2": 115.27,
+        "Totaly": 271.45
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Terbatas / Kawasan Pembangkit Tenaga Listrik",
+        "Sesuai": 135.02,
+        "Bersyarat": 76.71,
+        "Usaha": "Karamba",
+        "Sesuai2": 54.01,
+        "Bersyarat2": 30.69,
+        "Totaly": 84.69
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan",
+        "Sesuai": 79.53,
+        "Bersyarat": 88.67,
+        "Usaha": "Kolam",
+        "Sesuai2": 79.53,
+        "Bersyarat2": 88.67,
+        "Totaly": 168.2
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 67.07,
+        "Bersyarat": 61.82,
+        "Usaha": "Kolam",
+        "Sesuai2": 67.07,
+        "Bersyarat2": 61.82,
+        "Totaly": 128.89
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Terbatas / Kawasan Tanaman Pangan",
+        "Sesuai": 1115.46,
+        "Bersyarat": 1387.86,
+        "Usaha": "Kolam",
+        "Sesuai2": 1115.46,
+        "Bersyarat2": 1387.86,
+        "Totaly": 2503.31
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 131.47,
+        "Bersyarat": 174.57,
+        "Usaha": "Kolam",
+        "Sesuai2": 131.47,
+        "Bersyarat2": 174.57,
+        "Totaly": 306.04
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 2843.94,
+        "Bersyarat": 3827.99,
+        "Usaha": "Kolam",
+        "Sesuai2": 2843.94,
+        "Bersyarat2": 3827.99,
+        "Totaly": 6671.93
+      },
+      {
+        "Potensi": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 90.32,
+        "Bersyarat": 150.43,
+        "Usaha": "Kolam",
+        "Sesuai2": 90.32,
+        "Bersyarat2": 150.43,
+        "Totaly": 240.75
+      },
+      {
+        "Potensi": "Kawasan Sekitar Danau atau Waduk",
+        "Sesuai": 0.33,
+        "Bersyarat": 2.22,
+        "Usaha": "Karamba",
+        "Sesuai2": 0.13,
+        "Bersyarat2": 0.89,
+        "Totaly": 1.02
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 0.0,
+        "Bersyarat": 0.19,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 0.0,
+        "Bersyarat2": 0.19,
+        "Totaly": 0.19
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 721.96,
+        "Bersyarat": 106.92,
+        "Usaha": "Penangkapan",
+        "Sesuai2": 721.96,
+        "Bersyarat2": 106.92,
+        "Totaly": 828.88
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 1016.29,
+        "SesuaiBersyarat": 374.07,
+        "GrandTotal": 1390.355078
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 156.18,
+        "SesuaiBersyarat": 115.27,
+        "GrandTotal": 271.448566
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung",
+        "Sesuai": 1161.66,
+        "SesuaiBersyarat": 2245.35,
+        "GrandTotal": 3407.016818
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 9320.32,
+        "SesuaiBersyarat": 13057.52,
+        "GrandTotal": 22377.84645
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Pembangkit Tenaga Listrik",
+        "Sesuai": 135.02,
+        "SesuaiBersyarat": 76.71,
+        "GrandTotal": 211.7327563
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan",
+        "Sesuai": 79.53,
+        "SesuaiBersyarat": 88.67,
+        "GrandTotal": 168.1961499
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 67.07,
+        "SesuaiBersyarat": 61.82,
+        "GrandTotal": 128.8931617
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Permukiman Perdesaan",
+        "Sesuai": 131.36,
+        "SesuaiBersyarat": 281.57,
+        "GrandTotal": 412.9319192
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Tanaman Pangan",
+        "Sesuai": 1115.46,
+        "SesuaiBersyarat": 1387.86,
+        "GrandTotal": 2503.314587
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 131.47,
+        "SesuaiBersyarat": 174.57,
+        "GrandTotal": 306.0430302
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 2843.94,
+        "SesuaiBersyarat": 3827.99,
+        "GrandTotal": 6671.932577
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 90.32,
+        "SesuaiBersyarat": 150.43,
+        "GrandTotal": 240.7472463
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 345.45,
+        "SesuaiBersyarat": 123.86,
+        "GrandTotal": 469.3082883
+      },
+      {
+        "Kawasan": "Kawasan Sekitar Danau atau Waduk",
+        "Sesuai": 0.33,
+        "SesuaiBersyarat": 2.22,
+        "GrandTotal": 2.544768468
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 0.0,
+        "SesuaiBersyarat": 0.19,
+        "GrandTotal": 0.189894375
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 721.96,
+        "SesuaiBersyarat": 106.92,
+        "GrandTotal": 828.8796413
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Peso Hilir",
+    "ids": "Peso Hilir",
+    "Sesuai": 28608.71,
+    "SesuaiBersyarat": 26070.91,
+    "GrandTotal": 54679.63,
+    "Kolam": 15148.29,
+    "Minapadi": 51.52,
+    "Karamba": 310.73,
+    "Tambak": 0.0,
+    "Penangkapan": 594.47,
+    "SUM": 16105.01,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 768.01,
+        "Bersyarat": 8.81,
+        "Usaha": "Karamba",
+        "Sesuai2": 307.21,
+        "Bersyarat2": 3.52,
+        "Totaly": 310.73
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 327.45,
+        "Bersyarat": 159.35,
+        "Usaha": "Kolam",
+        "Sesuai2": 327.45,
+        "Bersyarat2": 159.35,
+        "Totaly": 486.8
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 4559.72,
+        "Bersyarat": 4822.18,
+        "Usaha": "Kolam",
+        "Sesuai2": 4559.72,
+        "Bersyarat2": 4822.18,
+        "Totaly": 9381.9
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 447.45,
+        "Bersyarat": 608.95,
+        "Usaha": "Kolam",
+        "Sesuai2": 447.45,
+        "Bersyarat2": 608.95,
+        "Totaly": 1056.4
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 37.41,
+        "Bersyarat": 42.87,
+        "Usaha": "Kolam",
+        "Sesuai2": 37.41,
+        "Bersyarat2": 42.87,
+        "Totaly": 80.28
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 1958.75,
+        "Bersyarat": 2179.73,
+        "Usaha": "Kolam",
+        "Sesuai2": 1958.75,
+        "Bersyarat2": 2179.73,
+        "Totaly": 4138.48
+      },
+      {
+        "Potensi": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 0.0,
+        "Bersyarat": 4.44,
+        "Usaha": "Kolam",
+        "Sesuai2": 0.0,
+        "Bersyarat2": 4.44,
+        "Totaly": 4.44
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 20.99,
+        "Bersyarat": 30.53,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 20.99,
+        "Bersyarat2": 30.53,
+        "Totaly": 51.52
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 526.12,
+        "Bersyarat": 68.35,
+        "Usaha": "Penangkapan",
+        "Sesuai2": 526.12,
+        "Bersyarat2": 68.35,
+        "Totaly": 594.47
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 768.01,
+        "SesuaiBersyarat": 8.81,
+        "GrandTotal": 776.8195923
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 327.45,
+        "SesuaiBersyarat": 159.35,
+        "GrandTotal": 486.7989567
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung",
+        "Sesuai": 2766.86,
+        "SesuaiBersyarat": 2337.58,
+        "GrandTotal": 5104.436849
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung / Kawasan Perkebunan Rakyat",
+        "Sesuai": 0.0,
+        "SesuaiBersyarat": 0.28,
+        "GrandTotal": 0.286274046
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 16133.73,
+        "SesuaiBersyarat": 14763.71,
+        "GrandTotal": 30897.44957
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan",
+        "Sesuai": 496.62,
+        "SesuaiBersyarat": 659.56,
+        "GrandTotal": 1156.18096
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 187.34,
+        "SesuaiBersyarat": 363.69,
+        "GrandTotal": 551.0270333
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 4559.72,
+        "SesuaiBersyarat": 4822.18,
+        "GrandTotal": 9381.904007
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 447.45,
+        "SesuaiBersyarat": 608.95,
+        "GrandTotal": 1056.396834
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 37.41,
+        "SesuaiBersyarat": 42.87,
+        "GrandTotal": 80.27899493
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Bentang Alam",
+        "Sesuai": 5.56,
+        "SesuaiBersyarat": 0.03,
+        "GrandTotal": 5.587674939
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 1958.75,
+        "SesuaiBersyarat": 2179.73,
+        "GrandTotal": 4138.478616
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 0.0,
+        "SesuaiBersyarat": 4.44,
+        "GrandTotal": 4.436012355
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 372.69,
+        "SesuaiBersyarat": 20.87,
+        "GrandTotal": 393.5542816
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 20.99,
+        "SesuaiBersyarat": 30.53,
+        "GrandTotal": 51.5227667
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 526.12,
+        "SesuaiBersyarat": 68.35,
+        "GrandTotal": 594.4684091
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kota Tanjung Selor",
+    "ids": "Tanjung Selor",
+    "Sesuai": 33798.12,
+    "SesuaiBersyarat": 9948.03,
+    "GrandTotal": 43746.15,
+    "Kolam": 13188.14,
+    "Minapadi": 4426.58,
+    "Karamba": 1412.09,
+    "Tambak": 43.34,
+    "Penangkapan": 1635.41,
+    "SUM": 20705.56,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 5598.96,
+        "Bersyarat": 95.49,
+        "Usaha": "Karamba",
+        "Sesuai2": 2239.58,
+        "Bersyarat2": 38.2,
+        "Totaly": 2277.78
+      },
+      {
+        "Potensi": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 1203.86,
+        "Bersyarat": 27.29,
+        "Usaha": "Tambak",
+        "Sesuai2": 481.54,
+        "Bersyarat2": 10.92,
+        "Totaly": 492.46
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 1151.2,
+        "Bersyarat": 319.08,
+        "Usaha": "Kolam",
+        "Sesuai2": 1151.2,
+        "Bersyarat2": 319.08,
+        "Totaly": 1470.29
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 20062.49,
+        "Bersyarat": 14534.06,
+        "Usaha": "Kolam",
+        "Sesuai2": 20062.49,
+        "Bersyarat2": 14534.06,
+        "Totaly": 34596.55
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 12878.69,
+        "Bersyarat": 226.18,
+        "Usaha": "Kolam",
+        "Sesuai2": 12878.69,
+        "Bersyarat2": 226.18,
+        "Totaly": 13104.86
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 4260.12,
+        "Bersyarat": 621.27,
+        "Usaha": "Kolam",
+        "Sesuai2": 4260.12,
+        "Bersyarat2": 621.27,
+        "Totaly": 4881.39
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Permukiman Perdesaan",
+        "Sesuai": 13.34,
+        "Bersyarat": 0.07,
+        "Usaha": "Kolam",
+        "Sesuai2": 13.34,
+        "Bersyarat2": 0.07,
+        "Totaly": 13.41
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Pertahanan dan Keamanan",
+        "Sesuai": 10.88,
+        "Bersyarat": 0.96,
+        "Usaha": "Kolam",
+        "Sesuai2": 10.88,
+        "Bersyarat2": 0.96,
+        "Totaly": 11.85
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 157.96,
+        "Bersyarat": 207.13,
+        "Usaha": "Kolam",
+        "Sesuai2": 157.96,
+        "Bersyarat2": 207.13,
+        "Totaly": 365.09
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan",
+        "Sesuai": 93.84,
+        "Bersyarat": 24.48,
+        "Usaha": "Kolam",
+        "Sesuai2": 93.84,
+        "Bersyarat2": 24.48,
+        "Totaly": 118.32
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan Rakyat",
+        "Sesuai": 1067.78,
+        "Bersyarat": 535.18,
+        "Usaha": "Kolam",
+        "Sesuai2": 1067.78,
+        "Bersyarat2": 535.18,
+        "Totaly": 1602.96
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 9514.05,
+        "Bersyarat": 105.7,
+        "Usaha": "Kolam",
+        "Sesuai2": 9514.05,
+        "Bersyarat2": 105.7,
+        "Totaly": 9619.74
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 17459.41,
+        "Bersyarat": 8461.37,
+        "Usaha": "Kolam",
+        "Sesuai2": 17459.41,
+        "Bersyarat2": 8461.37,
+        "Totaly": 25920.78
+      },
+      {
+        "Potensi": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 19.86,
+        "Bersyarat": 5.67,
+        "Usaha": "Kolam",
+        "Sesuai2": 19.86,
+        "Bersyarat2": 5.67,
+        "Totaly": 25.53
+      },
+      {
+        "Potensi": "Kawasan Resapan Air",
+        "Sesuai": 42.11,
+        "Bersyarat": 19.31,
+        "Usaha": "Karamba",
+        "Sesuai2": 16.84,
+        "Bersyarat2": 7.72,
+        "Totaly": 24.57
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 1731.24,
+        "Bersyarat": 873.25,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 1731.24,
+        "Bersyarat2": 873.25,
+        "Totaly": 2604.49
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 6197.06,
+        "Bersyarat": 346.78,
+        "Usaha": "Karamba",
+        "Sesuai2": 2478.83,
+        "Bersyarat2": 138.71,
+        "Totaly": 2617.54
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 5598.96,
+        "SesuaiBersyarat": 95.49,
+        "GrandTotal": 5694.449641
+      },
+      {
+        "Kawasan": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 1203.86,
+        "SesuaiBersyarat": 27.29,
+        "GrandTotal": 1231.147117
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 1151.2,
+        "SesuaiBersyarat": 319.08,
+        "GrandTotal": 1470.287769
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung",
+        "Sesuai": 180.93,
+        "SesuaiBersyarat": 314.6,
+        "GrandTotal": 495.5299231
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 1015.22,
+        "SesuaiBersyarat": 2353.13,
+        "GrandTotal": 3368.349959
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 28.83,
+        "SesuaiBersyarat": 87.23,
+        "GrandTotal": 116.0567378
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 20062.49,
+        "SesuaiBersyarat": 14534.06,
+        "GrandTotal": 34596.55057
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 12878.69,
+        "SesuaiBersyarat": 226.18,
+        "GrandTotal": 13104.86408
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 4260.12,
+        "SesuaiBersyarat": 621.27,
+        "GrandTotal": 4881.389198
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Permukiman Perdesaan",
+        "Sesuai": 13.34,
+        "SesuaiBersyarat": 0.07,
+        "GrandTotal": 13.4133427
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Pertahanan dan Keamanan",
+        "Sesuai": 10.88,
+        "SesuaiBersyarat": 0.96,
+        "GrandTotal": 11.84578503
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 157.96,
+        "SesuaiBersyarat": 207.13,
+        "GrandTotal": 365.0859465
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan",
+        "Sesuai": 93.84,
+        "SesuaiBersyarat": 24.48,
+        "GrandTotal": 118.3193005
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan Rakyat",
+        "Sesuai": 1067.78,
+        "SesuaiBersyarat": 535.18,
+        "GrandTotal": 1602.958854
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 9514.05,
+        "SesuaiBersyarat": 105.7,
+        "GrandTotal": 9619.744905
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 17459.41,
+        "SesuaiBersyarat": 8461.37,
+        "GrandTotal": 25920.77504
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 19.86,
+        "SesuaiBersyarat": 5.67,
+        "GrandTotal": 25.52541416
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 675.66,
+        "SesuaiBersyarat": 333.82,
+        "GrandTotal": 1009.482408
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 484.8,
+        "SesuaiBersyarat": 206.2,
+        "GrandTotal": 690.9952186
+      },
+      {
+        "Kawasan": "Kawasan Rawan Bencana",
+        "Sesuai": 448.45,
+        "SesuaiBersyarat": 153.45,
+        "GrandTotal": 601.9064872
+      },
+      {
+        "Kawasan": "Kawasan Resapan Air",
+        "Sesuai": 42.11,
+        "SesuaiBersyarat": 19.31,
+        "GrandTotal": 61.41277051
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 1731.24,
+        "SesuaiBersyarat": 873.25,
+        "GrandTotal": 2604.489599
+      },
+      {
+        "Kawasan": "Sempadan Pantai",
+        "Sesuai": 55.35,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 55.34891236
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 6197.06,
+        "SesuaiBersyarat": 346.78,
+        "GrandTotal": 6543.840777
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Tanjung Palas",
+    "ids": "Tanjung Palas",
+    "Sesuai": 14523.49,
+    "SesuaiBersyarat": 5228.0,
+    "GrandTotal": 19751.49,
+    "Kolam": 9485.02,
+    "Minapadi": 2812.83,
+    "Karamba": 765.25,
+    "Tambak": 0.0,
+    "Penangkapan": 769.53,
+    "SUM": 13832.62,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 1136.41,
+        "Bersyarat": 7.18,
+        "Usaha": "Karamba",
+        "Sesuai2": 454.56,
+        "Bersyarat2": 2.87,
+        "Totaly": 457.44
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 268.89,
+        "Bersyarat": 20.14,
+        "Usaha": "Kolam",
+        "Sesuai2": 268.89,
+        "Bersyarat2": 20.14,
+        "Totaly": 289.03
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 326.29,
+        "Bersyarat": 327.26,
+        "Usaha": "Kolam",
+        "Sesuai2": 326.29,
+        "Bersyarat2": 327.26,
+        "Totaly": 653.55
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 178.04,
+        "Bersyarat": 242.74,
+        "Usaha": "Kolam",
+        "Sesuai2": 178.04,
+        "Bersyarat2": 242.74,
+        "Totaly": 420.79
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 738.23,
+        "Bersyarat": 608.13,
+        "Usaha": "Kolam",
+        "Sesuai2": 738.23,
+        "Bersyarat2": 608.13,
+        "Totaly": 1346.36
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 132.18,
+        "Bersyarat": 3.54,
+        "Usaha": "Kolam",
+        "Sesuai2": 132.18,
+        "Bersyarat2": 3.54,
+        "Totaly": 135.72
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 3404.07,
+        "Bersyarat": 588.68,
+        "Usaha": "Kolam",
+        "Sesuai2": 3404.07,
+        "Bersyarat2": 588.68,
+        "Totaly": 3992.74
+      },
+      {
+        "Potensi": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 92.52,
+        "Bersyarat": 205.39,
+        "Usaha": "Kolam",
+        "Sesuai2": 92.52,
+        "Bersyarat2": 205.39,
+        "Totaly": 297.92
+      },
+      {
+        "Potensi": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 1001.33,
+        "Bersyarat": 32.58,
+        "Usaha": "Kolam",
+        "Sesuai2": 1001.33,
+        "Bersyarat2": 32.58,
+        "Totaly": 1033.91
+      },
+      {
+        "Potensi": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 1213.48,
+        "Bersyarat": 94.74,
+        "Usaha": "Kolam",
+        "Sesuai2": 1213.48,
+        "Bersyarat2": 94.74,
+        "Totaly": 1308.22
+      },
+      {
+        "Potensi": "Kawasan Resapan Air",
+        "Sesuai": 5.45,
+        "Bersyarat": 1.33,
+        "Usaha": "Kolam",
+        "Sesuai2": 5.45,
+        "Bersyarat2": 1.33,
+        "Totaly": 6.78
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 2729.66,
+        "Bersyarat": 83.16,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 2729.66,
+        "Bersyarat2": 83.16,
+        "Totaly": 2812.83
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 728.04,
+        "Bersyarat": 41.49,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 291.22,
+        "Bersyarat2": 16.59,
+        "Totaly": 307.81
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 1136.41,
+        "SesuaiBersyarat": 7.18,
+        "GrandTotal": 1143.592307
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 268.89,
+        "SesuaiBersyarat": 20.14,
+        "GrandTotal": 289.0272722
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 2055.39,
+        "SesuaiBersyarat": 2713.73,
+        "GrandTotal": 4769.11419
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 100.55,
+        "SesuaiBersyarat": 115.22,
+        "GrandTotal": 215.7793955
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 326.29,
+        "SesuaiBersyarat": 327.26,
+        "GrandTotal": 653.5526537
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 178.04,
+        "SesuaiBersyarat": 242.74,
+        "GrandTotal": 420.7855027
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 738.23,
+        "SesuaiBersyarat": 608.13,
+        "GrandTotal": 1346.358884
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Bentang Alam",
+        "Sesuai": 24.65,
+        "SesuaiBersyarat": 26.89,
+        "GrandTotal": 51.53885805
+      },
+      {
+        "Kawasan": "Kawasan Pariwisata",
+        "Sesuai": 0.85,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 0.85482575
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 132.18,
+        "SesuaiBersyarat": 3.54,
+        "GrandTotal": 135.7225712
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 3404.07,
+        "SesuaiBersyarat": 588.68,
+        "GrandTotal": 3992.743802
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 92.52,
+        "SesuaiBersyarat": 205.39,
+        "GrandTotal": 297.9167196
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 1001.33,
+        "SesuaiBersyarat": 32.58,
+        "GrandTotal": 1033.911921
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 1213.48,
+        "SesuaiBersyarat": 94.74,
+        "GrandTotal": 1308.221189
+      },
+      {
+        "Kawasan": "Kawasan Resapan Air",
+        "Sesuai": 5.45,
+        "SesuaiBersyarat": 1.33,
+        "GrandTotal": 6.777294201
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 2729.66,
+        "SesuaiBersyarat": 83.16,
+        "GrandTotal": 2812.827228
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 728.04,
+        "SesuaiBersyarat": 41.49,
+        "GrandTotal": 769.529115
+      },
+      {
+        "Kawasan": "Sentra Industri Kecil dan Menengah",
+        "Sesuai": 387.45,
+        "SesuaiBersyarat": 115.79,
+        "GrandTotal": 503.2370318
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Tanjung Palas Tengah",
+    "ids": "Tanjung Palas Tengah",
+    "Sesuai": 113473.16,
+    "SesuaiBersyarat": 5750.47,
+    "GrandTotal": 119223.63,
+    "Kolam": 68565.55,
+    "Minapadi": 13130.89,
+    "Karamba": 9809.7,
+    "Tambak": 3971.83,
+    "Penangkapan": 12494.63,
+    "SUM": 107972.6,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 842.35,
+        "Bersyarat": 12.97,
+        "Usaha": "Karamba",
+        "Sesuai2": 336.94,
+        "Bersyarat2": 5.19,
+        "Totaly": 342.13
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 718.87,
+        "Bersyarat": 195.64,
+        "Usaha": "Kolam",
+        "Sesuai2": 718.87,
+        "Bersyarat2": 195.64,
+        "Totaly": 914.5
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1428.66,
+        "Bersyarat": 1249.97,
+        "Usaha": "Kolam",
+        "Sesuai2": 1428.66,
+        "Bersyarat2": 1249.97,
+        "Totaly": 2678.63
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Pariwisata",
+        "Sesuai": 415.89,
+        "Bersyarat": 117.69,
+        "Usaha": "Kolam",
+        "Sesuai2": 415.89,
+        "Bersyarat2": 117.69,
+        "Totaly": 533.58
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 2093.64,
+        "Bersyarat": 2279.9,
+        "Usaha": "Kolam",
+        "Sesuai2": 2093.64,
+        "Bersyarat2": 2279.9,
+        "Totaly": 4373.54
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 2662.63,
+        "Bersyarat": 1867.01,
+        "Usaha": "Kolam",
+        "Sesuai2": 2662.63,
+        "Bersyarat2": 1867.01,
+        "Totaly": 4529.64
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 92.88,
+        "Bersyarat": 119.55,
+        "Usaha": "Kolam",
+        "Sesuai2": 92.88,
+        "Bersyarat2": 119.55,
+        "Totaly": 212.43
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 2011.76,
+        "Bersyarat": 892.37,
+        "Usaha": "Kolam",
+        "Sesuai2": 2011.76,
+        "Bersyarat2": 892.37,
+        "Totaly": 2904.13
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 369.72,
+        "Bersyarat": 92.27,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 369.72,
+        "Bersyarat2": 92.27,
+        "Totaly": 461.99
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 565.86,
+        "Bersyarat": 39.47,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 226.34,
+        "Bersyarat2": 15.79,
+        "Totaly": 242.13
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 842.35,
+        "SesuaiBersyarat": 12.97,
+        "GrandTotal": 855.3161241
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 718.87,
+        "SesuaiBersyarat": 195.64,
+        "GrandTotal": 914.501778
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung",
+        "Sesuai": 212.73,
+        "SesuaiBersyarat": 137.67,
+        "GrandTotal": 350.3988934
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 7135.06,
+        "SesuaiBersyarat": 5716.48,
+        "GrandTotal": 12851.54072
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 33.52,
+        "SesuaiBersyarat": 32.56,
+        "GrandTotal": 66.07857789
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1428.66,
+        "SesuaiBersyarat": 1249.97,
+        "GrandTotal": 2678.62954
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Pariwisata",
+        "Sesuai": 415.89,
+        "SesuaiBersyarat": 117.69,
+        "GrandTotal": 533.5759182
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 2093.64,
+        "SesuaiBersyarat": 2279.9,
+        "GrandTotal": 4373.536286
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 2662.63,
+        "SesuaiBersyarat": 1867.01,
+        "GrandTotal": 4529.642801
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 92.88,
+        "SesuaiBersyarat": 119.55,
+        "GrandTotal": 212.4282186
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Batuan dan Fosil",
+        "Sesuai": 39.49,
+        "SesuaiBersyarat": 106.68,
+        "GrandTotal": 146.1743474
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Bentang Alam",
+        "Sesuai": 431.55,
+        "SesuaiBersyarat": 265.91,
+        "GrandTotal": 697.4582657
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 2011.76,
+        "SesuaiBersyarat": 892.37,
+        "GrandTotal": 2904.127223
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 636.32,
+        "SesuaiBersyarat": 77.97,
+        "GrandTotal": 714.2926658
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 369.72,
+        "SesuaiBersyarat": 92.27,
+        "GrandTotal": 461.9865756
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 565.86,
+        "SesuaiBersyarat": 39.47,
+        "GrandTotal": 605.3316958
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Tanjung Palas Timur",
+    "ids": "Tanjung Palas Timur",
+    "Sesuai": 96134.12,
+    "SesuaiBersyarat": 34596.4,
+    "GrandTotal": 130730.52,
+    "Kolam": 79479.7,
+    "Minapadi": 2298.2,
+    "Karamba": 2431.41,
+    "Tambak": 176.84,
+    "Penangkapan": 4274.82,
+    "SUM": 88660.97,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 11877.21,
+        "Bersyarat": 152.42,
+        "Usaha": "Karamba",
+        "Sesuai2": 4750.89,
+        "Bersyarat2": 60.97,
+        "Totaly": 4811.85
+      },
+      {
+        "Potensi": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 9765.15,
+        "Bersyarat": 164.43,
+        "Usaha": "Tambak",
+        "Sesuai2": 3906.06,
+        "Bersyarat2": 65.77,
+        "Totaly": 3971.83
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 859.08,
+        "Bersyarat": 15.73,
+        "Usaha": "Kolam",
+        "Sesuai2": 859.08,
+        "Bersyarat2": 15.73,
+        "Totaly": 874.8
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 30104.76,
+        "Bersyarat": 240.78,
+        "Usaha": "Kolam",
+        "Sesuai2": 30104.76,
+        "Bersyarat2": 240.78,
+        "Totaly": 30345.54
+      },
+      {
+        "Potensi": "Kawasan Lindung Gambut",
+        "Sesuai": 2151.82,
+        "Bersyarat": 33.62,
+        "Usaha": "Kolam",
+        "Sesuai2": 2151.82,
+        "Bersyarat2": 33.62,
+        "Totaly": 2185.44
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 23578.59,
+        "Bersyarat": 227.85,
+        "Usaha": "Kolam",
+        "Sesuai2": 23578.59,
+        "Bersyarat2": 227.85,
+        "Totaly": 23806.43
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 8290.35,
+        "Bersyarat": 3062.99,
+        "Usaha": "Kolam",
+        "Sesuai2": 8290.35,
+        "Bersyarat2": 3062.99,
+        "Totaly": 11353.34
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 12098.58,
+        "Bersyarat": 1032.31,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 12098.58,
+        "Bersyarat2": 1032.31,
+        "Totaly": 13130.89
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 12075.07,
+        "Bersyarat": 419.56,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 4830.03,
+        "Bersyarat2": 167.82,
+        "Totaly": 4997.85
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 11877.21,
+        "SesuaiBersyarat": 152.42,
+        "GrandTotal": 12029.63511
+      },
+      {
+        "Kawasan": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 9765.15,
+        "SesuaiBersyarat": 164.43,
+        "GrandTotal": 9929.576816
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 859.08,
+        "SesuaiBersyarat": 15.73,
+        "GrandTotal": 874.8038816
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 30104.76,
+        "SesuaiBersyarat": 240.78,
+        "GrandTotal": 30345.54292
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Permukiman Perdesaan",
+        "Sesuai": 4.64,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 4.638912184
+      },
+      {
+        "Kawasan": "Kawasan Lindung Gambut",
+        "Sesuai": 2151.82,
+        "SesuaiBersyarat": 33.62,
+        "GrandTotal": 2185.436404
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 23578.59,
+        "SesuaiBersyarat": 227.85,
+        "GrandTotal": 23806.43483
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 8290.35,
+        "SesuaiBersyarat": 3062.99,
+        "GrandTotal": 11353.33608
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 1700.16,
+        "SesuaiBersyarat": 291.39,
+        "GrandTotal": 1991.55481
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 469.19,
+        "SesuaiBersyarat": 71.33,
+        "GrandTotal": 540.5112276
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 12098.58,
+        "SesuaiBersyarat": 1032.31,
+        "GrandTotal": 13130.88954
+      },
+      {
+        "Kawasan": "Sempadan Pantai",
+        "Sesuai": 498.57,
+        "SesuaiBersyarat": 38.07,
+        "GrandTotal": 536.6396193
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 12075.07,
+        "SesuaiBersyarat": 419.56,
+        "GrandTotal": 12494.62533
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Tanjung Palas Utara",
+    "ids": "Tanjung Palas Utara",
+    "Sesuai": 15126.42,
+    "SesuaiBersyarat": 4436.0,
+    "GrandTotal": 19562.42,
+    "Kolam": 12448.73,
+    "Minapadi": 3395.9,
+    "Karamba": 332.08,
+    "Tambak": 0.0,
+    "Penangkapan": 670.04,
+    "SUM": 16846.76,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 1748.19,
+        "Bersyarat": 55.52,
+        "Usaha": "Karamba",
+        "Sesuai2": 699.27,
+        "Bersyarat2": 22.21,
+        "Totaly": 721.48
+      },
+      {
+        "Potensi": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 441.2,
+        "Bersyarat": 0.91,
+        "Usaha": "Tambak",
+        "Sesuai2": 176.48,
+        "Bersyarat2": 0.36,
+        "Totaly": 176.84
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 16104.85,
+        "Bersyarat": 5523.73,
+        "Usaha": "Kolam",
+        "Sesuai2": 16104.85,
+        "Bersyarat2": 5523.73,
+        "Totaly": 21628.59
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 125.05,
+        "Bersyarat": 75.12,
+        "Usaha": "Kolam",
+        "Sesuai2": 125.05,
+        "Bersyarat2": 75.12,
+        "Totaly": 200.17
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 2358.57,
+        "Bersyarat": 444.46,
+        "Usaha": "Kolam",
+        "Sesuai2": 2358.57,
+        "Bersyarat2": 444.46,
+        "Totaly": 2803.03
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 1.89,
+        "Bersyarat": 0.57,
+        "Usaha": "Kolam",
+        "Sesuai2": 1.89,
+        "Bersyarat2": 0.57,
+        "Totaly": 2.45
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan Rakyat",
+        "Sesuai": 0.38,
+        "Bersyarat": 0.24,
+        "Usaha": "Kolam",
+        "Sesuai2": 0.38,
+        "Bersyarat2": 0.24,
+        "Totaly": 0.62
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 4581.9,
+        "Bersyarat": 19.86,
+        "Usaha": "Kolam",
+        "Sesuai2": 4581.9,
+        "Bersyarat2": 19.86,
+        "Totaly": 4601.76
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 36204.14,
+        "Bersyarat": 13041.84,
+        "Usaha": "Kolam",
+        "Sesuai2": 36204.14,
+        "Bersyarat2": 13041.84,
+        "Totaly": 49245.99
+      },
+      {
+        "Potensi": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 260.79,
+        "Bersyarat": 319.25,
+        "Usaha": "Kolam",
+        "Sesuai2": 260.79,
+        "Bersyarat2": 319.25,
+        "Totaly": 580.04
+      },
+      {
+        "Potensi": "Kawasan Resapan Air",
+        "Sesuai": 166.33,
+        "Bersyarat": 250.71,
+        "Usaha": "Kolam",
+        "Sesuai2": 166.33,
+        "Bersyarat2": 250.71,
+        "Totaly": 417.04
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 2024.6,
+        "Bersyarat": 273.6,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 2024.6,
+        "Bersyarat2": 273.6,
+        "Totaly": 2298.2
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 4106.12,
+        "Bersyarat": 168.71,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 1642.45,
+        "Bersyarat2": 67.48,
+        "Totaly": 1709.93
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 1748.19,
+        "SesuaiBersyarat": 55.52,
+        "GrandTotal": 1803.705087
+      },
+      {
+        "Kawasan": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 441.2,
+        "SesuaiBersyarat": 0.91,
+        "GrandTotal": 442.1091858
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 7722.95,
+        "SesuaiBersyarat": 9144.25,
+        "GrandTotal": 16867.19859
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Industri",
+        "Sesuai": 812.72,
+        "SesuaiBersyarat": 754.91,
+        "GrandTotal": 1567.624612
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan",
+        "Sesuai": 0.0,
+        "SesuaiBersyarat": 0.09,
+        "GrandTotal": 0.094223321
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 884.37,
+        "SesuaiBersyarat": 827.07,
+        "GrandTotal": 1711.441767
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 16104.85,
+        "SesuaiBersyarat": 5523.73,
+        "GrandTotal": 21628.5868
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 125.05,
+        "SesuaiBersyarat": 75.12,
+        "GrandTotal": 200.1741708
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 2358.57,
+        "SesuaiBersyarat": 444.46,
+        "GrandTotal": 2803.030514
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Permukiman Perdesaan",
+        "Sesuai": 0.7,
+        "SesuaiBersyarat": 1.52,
+        "GrandTotal": 2.213886503
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi",
+        "Sesuai": 1.89,
+        "SesuaiBersyarat": 0.57,
+        "GrandTotal": 2.454155218
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Industri",
+        "Sesuai": 892.29,
+        "SesuaiBersyarat": 701.67,
+        "GrandTotal": 1593.962509
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi yang dapat Dikonversi / Kawasan Perkebunan Rakyat",
+        "Sesuai": 0.38,
+        "SesuaiBersyarat": 0.24,
+        "GrandTotal": 0.619548892
+      },
+      {
+        "Kawasan": "Kawasan Industri",
+        "Sesuai": 8896.52,
+        "SesuaiBersyarat": 1078.43,
+        "GrandTotal": 9974.94652
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Bentang Alam",
+        "Sesuai": 22.49,
+        "SesuaiBersyarat": 19.14,
+        "GrandTotal": 41.62565759
+      },
+      {
+        "Kawasan": "Kawasan Pariwisata",
+        "Sesuai": 13.07,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 13.0708289
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 4581.9,
+        "SesuaiBersyarat": 19.86,
+        "GrandTotal": 4601.763253
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 36204.14,
+        "SesuaiBersyarat": 13041.84,
+        "GrandTotal": 49245.98758
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan Rakyat",
+        "Sesuai": 260.79,
+        "SesuaiBersyarat": 319.25,
+        "GrandTotal": 580.0379182
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 1752.7,
+        "SesuaiBersyarat": 246.24,
+        "GrandTotal": 1998.938225
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 3957.28,
+        "SesuaiBersyarat": 409.1,
+        "GrandTotal": 4366.38779
+      },
+      {
+        "Kawasan": "Kawasan Pertambangan Batubara",
+        "Sesuai": 2650.7,
+        "SesuaiBersyarat": 1229.55,
+        "GrandTotal": 3880.258017
+      },
+      {
+        "Kawasan": "Kawasan Resapan Air",
+        "Sesuai": 166.33,
+        "SesuaiBersyarat": 250.71,
+        "GrandTotal": 417.041188
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 2024.6,
+        "SesuaiBersyarat": 273.6,
+        "GrandTotal": 2298.198335
+      },
+      {
+        "Kawasan": "Sempadan Mata Air",
+        "Sesuai": 10.36,
+        "SesuaiBersyarat": 0.7,
+        "GrandTotal": 11.06018399
+      },
+      {
+        "Kawasan": "Sempadan Pantai",
+        "Sesuai": 393.94,
+        "SesuaiBersyarat": 9.22,
+        "GrandTotal": 403.1674856
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 4106.12,
+        "SesuaiBersyarat": 168.71,
+        "GrandTotal": 4274.8239
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Tanjung Palas Barat",
+    "ids": "Tanjung Palas Barat",
+    "Sesuai": 19690.93,
+    "SesuaiBersyarat": 13204.09,
+    "GrandTotal": 32895.02,
+    "Kolam": 16146.44,
+    "Minapadi": 461.99,
+    "Karamba": 584.26,
+    "Tambak": 0.0,
+    "Penangkapan": 605.33,
+    "SUM": 17798.02,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 145.16,
+        "Bersyarat": 15.01,
+        "Usaha": "Karamba",
+        "Sesuai2": 58.06,
+        "Bersyarat2": 6.0,
+        "Totaly": 64.07
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 380.01,
+        "Bersyarat": 575.95,
+        "Usaha": "Kolam",
+        "Sesuai2": 380.01,
+        "Bersyarat2": 575.95,
+        "Totaly": 955.96
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1551.53,
+        "Bersyarat": 1609.87,
+        "Usaha": "Kolam",
+        "Sesuai2": 1551.53,
+        "Bersyarat2": 1609.87,
+        "Totaly": 3161.4
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 6468.22,
+        "Bersyarat": 1406.11,
+        "Usaha": "Kolam",
+        "Sesuai2": 6468.22,
+        "Bersyarat2": 1406.11,
+        "Totaly": 7874.33
+      },
+      {
+        "Potensi": "Kawasan Resapan Air",
+        "Sesuai": 358.25,
+        "Bersyarat": 98.79,
+        "Usaha": "Kolam",
+        "Sesuai2": 358.25,
+        "Bersyarat2": 98.79,
+        "Totaly": 457.04
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 2931.19,
+        "Bersyarat": 464.71,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 2931.19,
+        "Bersyarat2": 464.71,
+        "Totaly": 3395.9
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 614.3,
+        "Bersyarat": 55.74,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 245.72,
+        "Bersyarat2": 22.29,
+        "Totaly": 268.02
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 145.16,
+        "SesuaiBersyarat": 15.01,
+        "GrandTotal": 160.1658777
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 380.01,
+        "SesuaiBersyarat": 575.95,
+        "GrandTotal": 955.961145
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1551.53,
+        "SesuaiBersyarat": 1609.87,
+        "GrandTotal": 3161.400728
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 6468.22,
+        "SesuaiBersyarat": 1406.11,
+        "GrandTotal": 7874.328616
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 2325.3,
+        "SesuaiBersyarat": 188.99,
+        "GrandTotal": 2514.291508
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 352.45,
+        "SesuaiBersyarat": 20.84,
+        "GrandTotal": 373.286527
+      },
+      {
+        "Kawasan": "Kawasan Resapan Air",
+        "Sesuai": 358.25,
+        "SesuaiBersyarat": 98.79,
+        "GrandTotal": 457.0417528
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 2931.19,
+        "SesuaiBersyarat": 464.71,
+        "GrandTotal": 3395.901139
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 614.3,
+        "SesuaiBersyarat": 55.74,
+        "GrandTotal": 670.0409315
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Sekatak",
+    "ids": "Sekatak",
+    "Sesuai": 84352.09,
+    "SesuaiBersyarat": 29851.68,
+    "GrandTotal": 114203.77,
+    "Kolam": 91730.76,
+    "Minapadi": 2604.49,
+    "Karamba": 4919.88,
+    "Tambak": 492.46,
+    "Penangkapan": 6543.84,
+    "SUM": 106291.43,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 1845.96,
+        "Bersyarat": 48.84,
+        "Usaha": "Karamba",
+        "Sesuai2": 738.38,
+        "Bersyarat2": 19.54,
+        "Totaly": 757.92
+      },
+      {
+        "Potensi": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 108.26,
+        "Bersyarat": 0.09,
+        "Usaha": "Tambak",
+        "Sesuai2": 43.3,
+        "Bersyarat2": 0.04,
+        "Totaly": 43.34
+      },
+      {
+        "Potensi": "Kawasan Hortikultura",
+        "Sesuai": 7.0,
+        "Bersyarat": 0.0,
+        "Usaha": "Kolam",
+        "Sesuai2": 7.0,
+        "Bersyarat2": 0.0,
+        "Totaly": 7.0
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1892.22,
+        "Bersyarat": 1212.25,
+        "Usaha": "Kolam",
+        "Sesuai2": 1892.22,
+        "Bersyarat2": 1212.25,
+        "Totaly": 3104.47
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 0.01,
+        "Bersyarat": 0.11,
+        "Usaha": "Kolam",
+        "Sesuai2": 0.01,
+        "Bersyarat2": 0.11,
+        "Totaly": 0.12
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 104.11,
+        "Bersyarat": 129.47,
+        "Usaha": "Kolam",
+        "Sesuai2": 104.11,
+        "Bersyarat2": 129.47,
+        "Totaly": 233.58
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 1144.65,
+        "Bersyarat": 0.0,
+        "Usaha": "Kolam",
+        "Sesuai2": 1144.65,
+        "Bersyarat2": 0.0,
+        "Totaly": 1144.65
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 5847.55,
+        "Bersyarat": 2694.92,
+        "Usaha": "Kolam",
+        "Sesuai2": 5847.55,
+        "Bersyarat2": 2694.92,
+        "Totaly": 8542.47
+      },
+      {
+        "Potensi": "Kawasan Resapan Air",
+        "Sesuai": 82.3,
+        "Bersyarat": 73.54,
+        "Usaha": "Kolam",
+        "Sesuai2": 82.3,
+        "Bersyarat2": 73.54,
+        "Totaly": 155.84
+      },
+      {
+        "Potensi": "Kawasan Tanaman Pangan",
+        "Sesuai": 3905.59,
+        "Bersyarat": 520.99,
+        "Usaha": "Kolam/minapadi",
+        "Sesuai2": 3905.59,
+        "Bersyarat2": 520.99,
+        "Totaly": 4426.58
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 1540.58,
+        "Bersyarat": 94.83,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 616.23,
+        "Bersyarat2": 37.93,
+        "Totaly": 654.16
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 1845.96,
+        "SesuaiBersyarat": 48.84,
+        "GrandTotal": 1894.803708
+      },
+      {
+        "Kawasan": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 108.26,
+        "SesuaiBersyarat": 0.09,
+        "GrandTotal": 108.3454211
+      },
+      {
+        "Kawasan": "Kawasan Hortikultura",
+        "Sesuai": 7.0,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 6.997971847
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas",
+        "Sesuai": 3248.85,
+        "SesuaiBersyarat": 2072.4,
+        "GrandTotal": 5321.257858
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan",
+        "Sesuai": 0.71,
+        "SesuaiBersyarat": 0.26,
+        "GrandTotal": 0.977853861
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Perkebunan Rakyat",
+        "Sesuai": 235.68,
+        "SesuaiBersyarat": 138.43,
+        "GrandTotal": 374.1073325
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Terbatas / Kawasan Tanaman Pangan",
+        "Sesuai": 620.79,
+        "SesuaiBersyarat": 344.59,
+        "GrandTotal": 965.3782685
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 1892.22,
+        "SesuaiBersyarat": 1212.25,
+        "GrandTotal": 3104.472283
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan",
+        "Sesuai": 0.01,
+        "SesuaiBersyarat": 0.11,
+        "GrandTotal": 0.117436018
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perkebunan Rakyat",
+        "Sesuai": 104.11,
+        "SesuaiBersyarat": 129.47,
+        "GrandTotal": 233.5789613
+      },
+      {
+        "Kawasan": "Kawasan Industri",
+        "Sesuai": 271.34,
+        "SesuaiBersyarat": 90.56,
+        "GrandTotal": 361.9012752
+      },
+      {
+        "Kawasan": "Kawasan Keunikan Bentang Alam",
+        "Sesuai": 564.7,
+        "SesuaiBersyarat": 364.05,
+        "GrandTotal": 928.7490796
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 1144.65,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 1144.653746
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 5847.55,
+        "SesuaiBersyarat": 2694.92,
+        "GrandTotal": 8542.47423
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 2238.85,
+        "SesuaiBersyarat": 411.79,
+        "GrandTotal": 2650.634837
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 8112.14,
+        "SesuaiBersyarat": 1228.51,
+        "GrandTotal": 9340.64821
+      },
+      {
+        "Kawasan": "Kawasan Pertahanan dan Keamanan",
+        "Sesuai": 28.42,
+        "SesuaiBersyarat": 0.29,
+        "GrandTotal": 28.71072282
+      },
+      {
+        "Kawasan": "Kawasan Pertambangan Batubara",
+        "Sesuai": 1998.41,
+        "SesuaiBersyarat": 521.09,
+        "GrandTotal": 2519.502074
+      },
+      {
+        "Kawasan": "Kawasan Resapan Air",
+        "Sesuai": 82.3,
+        "SesuaiBersyarat": 73.54,
+        "GrandTotal": 155.844099
+      },
+      {
+        "Kawasan": "Kawasan Tanaman Pangan",
+        "Sesuai": 3905.59,
+        "SesuaiBersyarat": 520.99,
+        "GrandTotal": 4426.583884
+      },
+      {
+        "Kawasan": "Sempadan Mata Air",
+        "Sesuai": 0.0,
+        "SesuaiBersyarat": 1.0,
+        "GrandTotal": 1.003297163
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 1540.58,
+        "SesuaiBersyarat": 94.83,
+        "GrandTotal": 1635.411319
+      }
+    ]
+  },
+  {
+    "indx": "cts",
+    "id": "Kecamatan Bunyu",
+    "ids": "Bunyu",
+    "Sesuai": 19563.47,
+    "SesuaiBersyarat": 2490.89,
+    "GrandTotal": 22054.36,
+    "Kolam": 14383.22,
+    "Minapadi": 0.0,
+    "Karamba": 140.88,
+    "Tambak": 905.08,
+    "Penangkapan": 104.75,
+    "SUM": 15533.94,
+    "potension": [
+      {
+        "Potensi": "Badan Air",
+        "Sesuai": 87.61,
+        "Bersyarat": 1.55,
+        "Usaha": "Karamba",
+        "Sesuai2": 35.04,
+        "Bersyarat2": 0.62,
+        "Totaly": 35.66
+      },
+      {
+        "Potensi": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 2186.67,
+        "Bersyarat": 76.03,
+        "Usaha": "Tambak",
+        "Sesuai2": 874.67,
+        "Bersyarat2": 30.41,
+        "Totaly": 905.08
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 74.93,
+        "Bersyarat": 1.56,
+        "Usaha": "Kolam",
+        "Sesuai2": 74.93,
+        "Bersyarat2": 1.56,
+        "Totaly": 76.49
+      },
+      {
+        "Potensi": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 10931.65,
+        "Bersyarat": 91.48,
+        "Usaha": "Kolam",
+        "Sesuai2": 10931.65,
+        "Bersyarat2": 91.48,
+        "Totaly": 11023.13
+      },
+      {
+        "Potensi": "Kawasan Perikanan Budidaya",
+        "Sesuai": 904.23,
+        "Bersyarat": 3.51,
+        "Usaha": "Kolam",
+        "Sesuai2": 904.23,
+        "Bersyarat2": 3.51,
+        "Totaly": 907.74
+      },
+      {
+        "Potensi": "Kawasan Perkebunan",
+        "Sesuai": 1956.63,
+        "Bersyarat": 419.23,
+        "Usaha": "Kolam",
+        "Sesuai2": 1956.63,
+        "Bersyarat2": 419.23,
+        "Totaly": 2375.86
+      },
+      {
+        "Potensi": "Kawasan Sekitar Danau atau Waduk",
+        "Sesuai": 0.47,
+        "Bersyarat": 0.0,
+        "Usaha": "Karamba",
+        "Sesuai2": 0.47,
+        "Bersyarat2": 0.0,
+        "Totaly": 0.47
+      },
+      {
+        "Potensi": "Sempadan Sungai",
+        "Sesuai": 250.76,
+        "Bersyarat": 11.13,
+        "Usaha": "Karamba dan penangkapan",
+        "Sesuai2": 100.3,
+        "Bersyarat2": 4.45,
+        "Totaly": 104.75
+      }
+    ],
+    "potensionSB": [
+      {
+        "Kawasan": "Badan Air",
+        "Sesuai": 87.61,
+        "SesuaiBersyarat": 1.55,
+        "GrandTotal": 89.15620793
+      },
+      {
+        "Kawasan": "Kawasan Ekosistem Mangrove",
+        "Sesuai": 2186.67,
+        "SesuaiBersyarat": 76.03,
+        "GrandTotal": 2262.70188
+      },
+      {
+        "Kawasan": "Kawasan Hutan Lindung",
+        "Sesuai": 653.63,
+        "SesuaiBersyarat": 506.89,
+        "GrandTotal": 1160.518147
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap",
+        "Sesuai": 74.93,
+        "SesuaiBersyarat": 1.56,
+        "GrandTotal": 76.48569107
+      },
+      {
+        "Kawasan": "Kawasan Hutan Produksi Tetap / Kawasan Perikanan Budidaya",
+        "Sesuai": 10931.65,
+        "SesuaiBersyarat": 91.48,
+        "GrandTotal": 11023.13479
+      },
+      {
+        "Kawasan": "Kawasan Industri",
+        "Sesuai": 344.91,
+        "SesuaiBersyarat": 68.83,
+        "GrandTotal": 413.7404896
+      },
+      {
+        "Kawasan": "Kawasan Pariwisata",
+        "Sesuai": 39.02,
+        "SesuaiBersyarat": 11.14,
+        "GrandTotal": 50.16809744
+      },
+      {
+        "Kawasan": "Kawasan Perikanan Budidaya",
+        "Sesuai": 904.23,
+        "SesuaiBersyarat": 3.51,
+        "GrandTotal": 907.7410625
+      },
+      {
+        "Kawasan": "Kawasan Perkebunan",
+        "Sesuai": 1956.63,
+        "SesuaiBersyarat": 419.23,
+        "GrandTotal": 2375.857299
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perdesaan",
+        "Sesuai": 0.12,
+        "SesuaiBersyarat": 0.11,
+        "GrandTotal": 0.228769109
+      },
+      {
+        "Kawasan": "Kawasan Permukiman Perkotaan",
+        "Sesuai": 487.74,
+        "SesuaiBersyarat": 187.21,
+        "GrandTotal": 674.9453708
+      },
+      {
+        "Kawasan": "Kawasan Pertambangan Mineral Logam",
+        "Sesuai": 1235.92,
+        "SesuaiBersyarat": 910.1,
+        "GrandTotal": 2146.024522
+      },
+      {
+        "Kawasan": "Kawasan Pertambangan Minyak dan Gas Bumi",
+        "Sesuai": 175.85,
+        "SesuaiBersyarat": 162.89,
+        "GrandTotal": 338.7356707
+      },
+      {
+        "Kawasan": "Kawasan Sekitar Danau atau Waduk",
+        "Sesuai": 0.47,
+        "SesuaiBersyarat": 0.0,
+        "GrandTotal": 0.466597663
+      },
+      {
+        "Kawasan": "Sempadan Pantai",
+        "Sesuai": 233.33,
+        "SesuaiBersyarat": 39.24,
+        "GrandTotal": 272.5724388
+      },
+      {
+        "Kawasan": "Sempadan Sungai",
+        "Sesuai": 250.76,
+        "SesuaiBersyarat": 11.13,
+        "GrandTotal": 261.8850402
+      }
+    ]
+  }
+]

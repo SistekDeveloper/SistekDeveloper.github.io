@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: "Rubik", system-ui;
+}
+
+.headline{
+    z-index: 9999;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.headline h1 {
+    font-style: italic;
+    color: #817811;
+    font-size: 1.5rem;
+}
+
+.headHover{
+    overflow: hidden;
+}
+
+.headline .headHover h4{
+    font-size: 1rem;
+    font-style: italic;
+    color: #4a5593;
+    transition: ease 1s;
+    transform: translateX(-100%);
+}
+
+section {
+    position: relative;
+}
+
+#sec1 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: flex-start;
+    padding: .5rem 1rem 0 1rem;
+    gap: 1rem;
+}
+
+.map {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#fullmap {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(200, 92%, 80%);
+    border-radius: .75rem;
+}
+
+.path {
+    /* fill: #138dc2; */
+    fill: rgb(227, 227, 227);
+    cursor: pointer;
+    pointer-events: fill;
+}
+
+.path:hover {
+    opacity: .7;
+}
+
+.water{
+    /* fill: #085d72; */
+    fill: #138dc2;
+    opacity: .7;
+    pointer-events: none;
+}
+
+.line {
+    fill: none;
+    stroke: #2a4cb1;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 2, 4;
+    pointer-events: none;
+}
+
+.active {
+    fill: #beec4a;
+}
+
+/* content */
+
+.content{
+    width: 40%;
+    height: 100%;
+}
+
+.content-head{
+    width: 100%;
+    height: 7%;
+}
+
+.content-head h4{
+    font-style: italic;
+    color: #817811;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.CTS{
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table-cts{
+    width: 100%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-radius: .5rem;
+    border-style: hidden;
+    border-spacing: 0;
+    box-shadow: 0 0 0 1px #c0c6ba;
+    overflow: hidden;
+}
+
+.table-cts thead th, .table-cts tbody td{
+    padding: .3rem .7rem;
+}
+
+.table-cts thead{
+    background-color: #e9f1ff;
+}
+
+.table-cts tbody tr{
+    width: 100%;
+    border-bottom: 1px solid #c0c6ba;
+}
+
+.cch1{
+    color: #686868;
+    text-align: left;
+}
+
+.cch2, .cch3{
+    color: #686868;
+    text-align: right;
+}
+
+.cc1{
+    text-align: left;
+}
+
+.cc2, .cc3{
+    text-align: right;
+}
+
+.az-active{
+    background-color: rgb(178, 225, 178);
+}
+
+.lbl{
+    color: #686868;
+    text-align: right;
+}
+
+#myPolar{
+    width: 225px;
+    height: 225px;
+    align-self: center;
+}
+
+#myChart{
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Curr Sec 2 */
+
+#sec2{
+    width: 100%;
+    height: 70vh;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.th-tb-start{
+    width: 100%;
+    height: 20%;
+    padding: 0 1rem 0 1rem;
+}
+.th-tb-end{
+    width: 100%;
+    height: 80%;
+    padding: 0 1rem 0 1rem;
+    overflow: scroll;
+}
+
+.th-tb-end::-webkit-scrollbar{
+    display: none;
+}
+
+.table-scnd-thead{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-style: hidden;
+    border-spacing: 0;
+    box-shadow: 0 0 0 1px #c0c6ba;
+    overflow: hidden;
+}
+
+.table-scnd-tbody{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-style: hidden;
+    border-spacing: 0;
+    box-shadow: 0 0 0 1px #c0c6ba;
+    overflow: hidden;
+}
+
+.table-scnd-thead tbody th{
+    padding: .3rem .7rem;
+}
+
+.table-scnd-tbody tbody td{
+    padding: .3rem .7rem;
+}
+
+.table-scnd-thead tbody{
+    background-color: #e9f1ff;
+}
+
+.table-scnd-tbody tbody tr{
+    width: 100%;
+    border-bottom: 1px solid #c0c6ba;
+}
+
+
+.scnd1{
+    width: 40%;
+    text-align: left;
+}
+
+.scnd-sc{
+    width: 40%;
+    text-align: center;
+    border-bottom: 1px solid #c0c6ba;
+}
+
+.scnd2,.scnd3,.scnd4{
+    width: 20%;
+    text-align: right;
+}
+
+.KecNom{
+    background-color: #b9f87a;
+    text-align: center;
+    padding: .4rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.kws{
+    width: 40%;
+    text-align: left;
+}
+.kws1{
+    width: 20%;
+    text-align: right;
+}
+.tot-kws{
+    width: 40%;
+    text-align: center;
+    font-weight: 600;
+}
+.kws2{
+    width: 20%;
+    text-align: right;
+    font-weight: 600;
+}
+
+/* clck scnd */
+
+.PL{
+    width: 30%;
+}
+
+.LLP{
+    width: 20%;
+    border-bottom: 1px solid #c0c6ba;
+}
+
+.LLP1 {
+    width: 7%;
+    text-align: right;
+}
+.LLP2{
+    width: 13%;
+    text-align: right;
+}
+
+.PU{
+    width: 20%;
+    text-align: center;
+}
+
+.LU{
+    width: 30%;
+    border-bottom: 1px solid #c0c6ba;
+}
+
+.LU1{
+    width: 8%;
+    text-align: right;
+}
+.LU2{
+    width: 14%;
+    text-align: right;
+}
+.LU3{
+    width: 8%;
+    text-align: right;
+}
+
+.bod-PL{
+    width: 30%;
+}
+
+.bod-LLP1 {
+    width: 7%;
+    text-align: right;
+}
+.bod-LLP2{
+    width: 13%;
+    text-align: right;
+}
+
+.bod-PU{
+    width: 20%;
+    text-align: center;
+}
+
+.bod-LU1{
+    text-align: right;
+    width: 8%;
+}
+.bod-LU2{
+    text-align: right;
+    width: 14%;
+}
+.bod-LU3{
+    text-align: right;
+    width: 8%;
+}
