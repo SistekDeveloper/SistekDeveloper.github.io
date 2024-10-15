@@ -4,6 +4,9 @@ let width = 725,
 const svg = document.querySelector("#fullmap");
 const g = document.querySelector("#MapGroup");
 const h2head = document.querySelector(".headline .headHover h4");
+const RedsZone = document.querySelectorAll("#RedsZone path")
+const RZButtons = document.querySelector(".RZButton")
+
 function spEnter() {
   h2head.style.transform = "translateX(0%)";
 }
@@ -47,6 +50,10 @@ function currentContents() {
   const myPolaris = document.querySelector("#myPolar");
   myPolaris.innerHTML = " ";
   conHD.innerHTML = "Kabupaten Bulungan";
+  RZButtons.style.display = "none"
+  RedsZone.forEach(RZcurr => {
+    RZcurr.style.display = "none"
+  })
   let fetchCurr = async () => {
     await fetch("/json/data.json")
       .then((Response) => Response.json())
@@ -176,11 +183,34 @@ svg.addEventListener("click", function (e) {
     // style active
     e.target.classList.add("active");
 
+
     // Content data
 
     elements.forEach(function (contentOfElement) {
       if (e.target === contentOfElement) {
-        let coeIndex = contentOfElement.getAttribute("data-value");
+        let coeName = contentOfElement.getAttribute("xlink:title");
+        // RedsZone
+
+        RZButtons.style.display = "unset"
+        let RedZoneAll = document.querySelectorAll(".Red-Zone");
+        RedZoneAll.forEach(RZRes => {
+          if(RZRes.style.display == "unset"){
+            RZRes.style.display = "none"
+          }
+        })
+        RedZoneAll.forEach(RZL => {
+          RZName = RZL.getAttribute("data-name");
+          if (coeName == RZName){
+            RZL.style.display = "unset"
+          }
+        })
+
+
+
+
+
+
+
         // Stats data
 
         let fetching = async () => {
@@ -191,7 +221,6 @@ svg.addEventListener("click", function (e) {
 
         fetching();
 
-        let coeName = contentOfElement.getAttribute("xlink:title");
         function mainContent(data) {
           data.map((datas) => {
             if (coeName == datas.id) {
@@ -395,3 +424,15 @@ svg.addEventListener("click", function (e) {
     return currentContents();
   }
 });
+
+function RZButton(){
+  let RZon = document.querySelector("#RedsZone");
+  let Waters = document.querySelector("#BadanAir")
+  if(RZon.style.display === "none"){
+    RZon.style.display = "unset"
+    Waters.style.display = "none"
+  }else{
+    RZon.style.display = "none"
+    Waters.style.display = "unset"
+  }
+}
