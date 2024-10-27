@@ -13,6 +13,7 @@ html {
 body {
     background: #FFFFFF;
     font-family: "Rubik", system-ui;
+    color: rgb(34, 34, 34);
 }
 
 body::-webkit-scrollbar {
@@ -52,7 +53,7 @@ section {
 #sec1 {
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     justify-content: flex-start;
     padding: .5rem 1rem 0 1rem;
     gap: 1rem;
@@ -63,7 +64,6 @@ section {
     height: 100%;
     display: flex;
     position: relative;
-    flex-direction: column;
 }
 
 #fullmap {
@@ -75,8 +75,7 @@ section {
 }
 
 .path {
-    /* fill: #138dc2; */
-    fill: rgb(227, 227, 227);
+    fill: rgb(255, 255, 255);
     cursor: pointer;
     pointer-events: fill;
 }
@@ -86,10 +85,8 @@ section {
 }
 
 .water {
-    /* fill: #085d72; */
-    fill: #138dc2;
-    opacity: .7;
     pointer-events: none;
+    fill: #118AB2;
 }
 
 .line {
@@ -104,17 +101,26 @@ section {
 }
 
 .active {
-    fill: #83e67a;
+    fill: rgb(255, 255, 255);
 }
 
-#RedsZone{
+#RedsZone, #KESES{
     display: none;
     pointer-events: none;
 }
 
 .Red-Zone{
     fill: rgb(249, 38, 5);
-    animation: kedip 2s infinite;
+    pointer-events: none;
+}
+
+.sesuai{
+    fill: rgb(4, 155, 62);
+    pointer-events: none;
+}
+
+.bersyarat{
+    fill: rgb(255, 196, 0);
     pointer-events: none;
 }
 
@@ -142,13 +148,6 @@ section {
     background-color: #18cd8b;
 }
 
-@keyframes kedip {
-    0%   {opacity: .4;}
-    25%  {opacity: .95;}
-    50%  {opacity: .95;}
-    75%  {opacity: .95;}
-    100% {opacity: .4;}
-}
 /* content */
 
 .content {
@@ -158,7 +157,7 @@ section {
 
 .content-head {
     width: 100%;
-    height: 7%;
+    height: max-content;
 }
 
 .content-head h4 {
@@ -187,6 +186,7 @@ section {
     border-spacing: 0;
     box-shadow: 0 0 0 1px #c0c6ba;
     overflow: hidden;
+    font-size: .8rem;
 }
 
 .table-cts thead th,
@@ -204,13 +204,13 @@ section {
 }
 
 .cch1 {
-    color: #686868;
+    color: #4a4a4a;
     text-align: left;
 }
 
 .cch2,
 .cch3 {
-    color: #686868;
+    color: #4a4a4a;
     text-align: right;
 }
 
@@ -228,19 +228,26 @@ section {
 }
 
 .lbl {
-    color: #686868;
+    color: #4a4a4a;
     text-align: right;
 }
 
 #myPolar {
-    width: 225px;
-    height: 225px;
-    align-self: center;
+    width: 100%;
+    min-height: 45%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #myChart {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
+}
+
+#pieCurr{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -251,6 +258,7 @@ section {
     height: 70vh;
     justify-content: flex-start;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     gap: 1rem;
 }
 
@@ -258,12 +266,13 @@ section {
     width: 100%;
     height: 20%;
     padding: 0 1rem 0 1rem;
+    color: #4a4a4a;
 }
 
 .th-tb-end {
     width: 100%;
     height: 80%;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem .2rem 1rem;
     overflow: scroll;
 }
 
@@ -314,7 +323,6 @@ section {
     border-bottom: 1px solid #c0c6ba;
 }
 
-
 .scnd1 {
     width: 40%;
     text-align: left;
@@ -339,6 +347,7 @@ section {
     padding: .4rem 0;
     font-size: 1rem;
     font-weight: 600;
+    color: #4a4a4a;
 }
 
 .kws {
@@ -443,47 +452,136 @@ section {
     width: 8%;
 }
 
+/* footer */
+footer {
+    background-color: #f5ffbe;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem 0 1rem 0;
+    display: block;
+    gap: 1rem;
+}
 
-
-
+footer p {
+    font-size: .8rem;
+    font-weight: 600;
+}
 
 
 /* media query */
-/* 
+
 @media only screen and (max-width: 768px) {
     #sec1{
+        display: block;
         width: 100%;
-        display: flex;
         height: max-content;
-        flex-direction: column;
-        align-items: center;
-        justify-content: unset;
-    };
+    }
     .map{
         width: 100%;
-        height: 30vh;
-        flex-direction: unset;
-    }
-
-    #fullmap{
-        width: 100%;
-        height: 100%;
+        height: 400px;
     }
     .content{
         width: 100%;
+        height: max-content;
     }
     .content-head{
-        width: 100%;
+        padding: .5rem;
     }
     .CTS{
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: unset;
+        height: 300px;
+        display: flex;
+        align-items: center;
     }
     .table-cts{
         width: 60%;
+        height: 100%;
     }
     #myPolar{
         width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-} */
+    .th-tb-start{
+        height: max-content;
+        font-size: .8rem;
+    }
+    .th-tb-end{
+        font-size: .8rem;
+    }
+    .KecNom{
+        font-size: .8rem;
+    }
+    footer{
+        margin-top: .5rem;
+    }
+}
+
+/* HP */
+@media only screen and (max-width: 480px){
+    .headline{
+        padding: .5rem .5rem 0 .5rem;
+    }
+    .headline h1 {
+        font-size: 1.2rem;
+    }
+    .headline .headHover h4{
+        font-size: .8rem;
+    }
+    #sec1{
+        padding: .5rem .5rem 0 .5rem;
+    }
+    .RZButton button {
+        font-size: .6rem;
+        padding: .3rem .7rem;
+    }
+    .content{
+        height: max-content;
+    }
+    .content-head h4{
+        font-size: .9rem;
+    }
+    .CTS{
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+    }
+    .table-cts{
+        width: 100%;
+        font-size: .6rem;
+    }
+    .table-cts thead th,
+    .table-cts tbody td {
+        padding: .2rem .3rem;
+    }
+    #myPolar{
+        width: 100%;
+        height: 300px;
+        padding: .5rem;
+    }
+
+    #sec2{
+        padding-bottom: 0;
+    }
+    .th-tb-start{
+        padding: 0 .5rem 0 .5rem;
+        font-size: .6rem;
+    }
+    .th-tb-end{
+        padding: 0 .5rem .2rem .5rem;
+        font-size: .6rem;
+    }
+    .KecNom{
+        font-size: .6rem;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+    footer p {
+        font-size: .6rem;
+    }
+}

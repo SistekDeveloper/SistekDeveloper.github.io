@@ -5,7 +5,9 @@ const svg = document.querySelector("#fullmap");
 const g = document.querySelector("#MapGroup");
 const h2head = document.querySelector(".headline .headHover h4");
 const RedsZone = document.querySelectorAll("#RedsZone path")
-const RZButtons = document.querySelector(".RZButton")
+const SesBesPath = document.querySelectorAll("#KESES g")
+const Buttons = document.querySelector(".RZButton")
+const water = document.querySelector(".water")
 
 function spEnter() {
   h2head.style.transform = "translateX(0%)";
@@ -48,11 +50,16 @@ elements.forEach(function (element) {
 function currentContents() {
   const conHD = document.querySelector(".content-head h4");
   const myPolaris = document.querySelector("#myPolar");
+
+  water.style.display = "unset"
   myPolaris.innerHTML = " ";
   conHD.innerHTML = "Kabupaten Bulungan";
-  RZButtons.style.display = "none"
+  Buttons.style.display = "none"
   RedsZone.forEach(RZcurr => {
     RZcurr.style.display = "none"
+  })
+  SesBesPath.forEach(SBPcurr => {
+    SBPcurr.style.display = "none"
   })
   let fetchCurr = async () => {
     await fetch("/json/data.json")
@@ -66,6 +73,7 @@ function currentContents() {
     let divCont = document.createElement("tbody");
     const divTab = document.querySelector(".table-cts thead");
     divTab.innerHTML = `<tr>
+                          <th class="cch0"></th>
                           <th class="cch1">Kecamatan</th>
                           <th class="cch2">Total Kawasan</th>
                           <th class="cch3">Kawasan Potensi</th>
@@ -84,6 +92,7 @@ function currentContents() {
       }).format(datas.SUM);
       divCont.innerHTML += `
                               <tr id="${indx}" data-vsx="${datas.id}">
+                                <td class="cc0" style="background-color:${datas.fill};"></td>
                                 <td class="cc1">${ids}</td>
                                 <td class="cc2">${GT}</td>
                                 <td class="cc3">${SUM}</td>
@@ -138,7 +147,71 @@ function currentContents() {
     })
     const tabScndBody = document.querySelector(".table-scnd-tbody tbody");
     tabScndBody.innerHTML = scndHide.innerHTML;
+    const chartCurr = document.querySelector("#myPolar");
+    chartCurr.innerHTML = "<canvas id='pieCurr'>_</canvas>";
 
+    CobaPie()
+
+    function CobaPie(){
+      const myPie = document.getElementById("pieCurr").getContext("2d");
+      const IDinPIE = data.map(datas=>{return datas.id})
+      const SUMinPIE = data.map(datas=>{return datas.SUM})
+      const fillingPIE = data.map(datas => {return datas.fill})
+      const SumOfPie = SUMinPIE.reduce((acc, curv) => {return acc + curv},0)
+      const percentagePie = [];
+      SUMinPIE.forEach(pc => {
+        const res = pc/SumOfPie*100
+        percentagePie.push(res)
+        console.log(res)
+      })
+      console.log(percentagePie)
+      new Chart(myPie, {
+        type: "pie",
+        data: {
+          datasets: [
+            {
+              data: percentagePie,
+              backgroundColor: fillingPIE
+            }
+          ],
+          labels: IDinPIE,
+        },
+        options: {
+          
+        },
+        plugins: [ChartDataLabels],
+          options: {
+            responsive: true,
+            layout: {
+              padding: 10
+            },
+            plugins: {
+              legend: {
+                display: false
+              },
+              datalabels: {
+                color: "#FFFFFF",
+                anchor: "end",
+                align: "start",
+                offset: -10,
+                borderWidth: 2,
+                borderColor: "#FFFFFF",
+                borderRadius: 25,
+                backgroundColor: (context) => {
+                  return context.dataset.backgroundColor;
+                },
+                font: {
+                  weight: "bold",
+                  size: "10"
+                },
+                formatter: (value) => {
+                  return value.toFixed(1) + " %"
+                }
+              }
+            }
+          }
+      })
+    }
   }
 }
 
@@ -191,8 +264,9 @@ svg.addEventListener("click", function (e) {
         let coeName = contentOfElement.getAttribute("xlink:title");
         // RedsZone
 
-        RZButtons.style.display = "unset"
+        Buttons.style.display = "unset"
         let RedZoneAll = document.querySelectorAll(".Red-Zone");
+        let SesBesAll = document.querySelectorAll(".kesesuaian");
         RedZoneAll.forEach(RZRes => {
           if(RZRes.style.display == "unset"){
             RZRes.style.display = "none"
@@ -201,10 +275,21 @@ svg.addEventListener("click", function (e) {
         RedZoneAll.forEach(RZL => {
           RZName = RZL.getAttribute("data-name");
           if (coeName == RZName){
-            RZL.style.display = "unset"
+            RZL.style.display = "unset";
           }
         })
-
+        // SESUAI DAN BERSYARAT
+        SesBesAll.forEach(SBRes => {
+          if(SBRes.style.display == "unset"){
+            SBRes.style.display = "none"
+          }
+        })
+        SesBesAll.forEach(SBL => {
+          SBName = SBL.getAttribute("data-name");
+          if (coeName == SBName){
+            SBL.style.display = "unset";
+          }
+        })
 
 
 
@@ -373,20 +458,18 @@ svg.addEventListener("click", function (e) {
             }
             function inPolars() {
               const myChart = document.getElementById("myChart");
-
+              const dtKolam = datas.Kolam/datas.SUM*100;
+              const dtMinapadi = datas.Minapadi/datas.SUM*100;
+              const dtKaramba = datas.Karamba/datas.SUM*100;
+              const dtTambak = datas.Tambak/datas.SUM*100;
+              const datanya = [dtKolam, dtMinapadi, dtKaramba, dtTambak];
               new Chart(myChart, {
                 type: "doughnut",
                 data: {
                   labels: ["Kolam", "Minapadi", "Karamba", "Tambak"],
                   datasets: [
                     {
-                      label: "# of Votes",
-                      data: [
-                        datas.Kolam,
-                        datas.Minapadi,
-                        datas.Karamba,
-                        datas.Tambak,
-                      ],
+                      data: datanya,
                       backgroundColor: [
                         'rgb(75, 192, 192)',
                         'rgb(255, 205, 86)',
@@ -397,15 +480,39 @@ svg.addEventListener("click", function (e) {
                   ],
                 },
                 options: {
-                  borderRadius: 2,
-                  hoverBorderWidth: 0,
-                  hoverOffset: 5,
-                  plugins: {
-                    legend: {
-                      display: false
+          
+                },
+                plugins: [ChartDataLabels],
+                  options: {
+                    responsive: true,
+                    layout: {
+                      padding: 10
+                    },
+                    plugins: {
+                      legend: {
+                        display: false
+                      },
+                      datalabels: {
+                        color: "#FFFFFF",
+                        anchor: "end",
+                        align: "start",
+                        offset: -10,
+                        borderWidth: 2,
+                        borderColor: "#FFFFFF",
+                        borderRadius: 25,
+                        backgroundColor: (context) => {
+                          return context.dataset.backgroundColor;
+                        },
+                        font: {
+                          weight: "bold",
+                          size: "10"
+                        },
+                        formatter: (value) => {
+                          return value.toFixed(1) + " %"
+                        }
+                      }
                     }
                   }
-                }
               });
             }
           });
@@ -427,12 +534,26 @@ svg.addEventListener("click", function (e) {
 
 function RZButton(){
   let RZon = document.querySelector("#RedsZone");
-  let Waters = document.querySelector("#BadanAir")
+  let SBon = document.querySelector("#KESES");
   if(RZon.style.display === "none"){
     RZon.style.display = "unset"
-    Waters.style.display = "none"
+    SBon.style.display = "none"
+    water.style.display = "none"
   }else{
     RZon.style.display = "none"
-    Waters.style.display = "unset"
+    water.style.display = "unset"
+  }
+}
+
+function SBButton(){
+  let SBon = document.querySelector("#KESES");
+  let RZon = document.querySelector("#RedsZone");
+  if(SBon.style.display === "none"){
+    SBon.style.display = "unset"
+    RZon.style.display = "none"
+    water.style.display = "none"
+  }else{
+    SBon.style.display = "none"
+    water.style.display = "unset"
   }
 }
