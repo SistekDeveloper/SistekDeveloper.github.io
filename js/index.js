@@ -393,19 +393,19 @@ svg.addEventListener("click", function (e) {
                                 <td class="cc1">Sesuai</td>
                                 <td class="cc2">${ctA}</td>
                                 <td class="cc3">${Aps}</td>
-                                <td class="lbl" style="background-color:rgb(75, 192, 192)"></td>
+                                <td class="lbl" style="background-color:rgb(70, 184, 104);border-left: 1px solid #c0c6ba;"></td>
                               </tr>
                               <tr>
                                 <td class="cc1">Sesuai Bersyarat</td>
                                 <td class="cc2">${ctB}</td>
                                 <td class="cc3">${Bps}</td>
-                                <td class="lbl" style="background-color:rgb(255, 205, 86)"></td>
+                                <td class="lbl" style="background-color:rgb(255, 196, 0);border-left: 1px solid #c0c6ba;"></td>
                               </tr>
                               <tr>
                                 <td class="cc1">Tidak Sesuai</td>
                                 <td class="cc2">${ctC}</td>
                                 <td class="cc3">${Cps}</td>
-                                <td class="lbl" style="background-color:rgb(255, 99, 132)"></td>
+                                <td class="lbl" style="background-color:rgb(241, 114, 120);border-left: 1px solid #c0c6ba;"></td>
                               </tr>
                               `;
               const content = document.querySelector(".table-cts tbody");
@@ -543,9 +543,9 @@ svg.addEventListener("click", function (e) {
                     {
                       data: datanya,
                       backgroundColor: [
-                        'rgb(75, 192, 192)',
-                        'rgb(255, 205, 86)',
-                        'rgb(255, 99, 132)'
+                        'rgb(70, 184, 104)',
+                        'rgb(255, 196, 0)',
+                        'rgb(241, 114, 120)'
                       ],
                     },
                   ],
@@ -564,12 +564,12 @@ svg.addEventListener("click", function (e) {
                         display: false
                       },
                       datalabels: {
-                        color: "#FFFFFF",
+                        color: "white",
                         anchor: "end",
                         align: "start",
                         offset: -10,
                         borderWidth: 2,
-                        borderColor: "#FFFFFF",
+                        borderColor: "white",
                         borderRadius: 25,
                         backgroundColor: (context) => {
                           return context.dataset.backgroundColor;
@@ -579,7 +579,7 @@ svg.addEventListener("click", function (e) {
                           size: "10"
                         },
                         formatter: (value) => {
-                          return value.toFixed(1) + " %"
+                          return value.toFixed(2) + " %"
                         }
                       }
                     }
