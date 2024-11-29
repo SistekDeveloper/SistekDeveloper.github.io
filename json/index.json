@@ -1,0 +1,978 @@
+[
+  {
+    "fill": "#D00000",
+    "indx": "cts",
+    "id": "Kelurahan Sempaja Selatan",
+    "ids": "Sempaja Selatan",
+    "lw": 463.9731087,
+    "A": 231.1860927,
+    "B": 160.3505936,
+    "C": 72.43642245,
+    "AP": "50%",
+    "BP": "35%",
+    "CP": "16%",
+    "RTP": 10,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 0.674148113
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 2.097127061
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 29.65657414
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 3.854628913
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 23.7628235
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 148.2638878
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 22.87690318
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 0.269556989
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 3.261137958
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 32.07699424
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 29.64982857
+      },
+      {
+        "PolaRuang": "Kawasan Perkantoran",
+        "Total": 0.114518939
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 93.00324387
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 1.975313008
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 0.02923517
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.041667459
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 4.39080888
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 6.980295902
+      },
+      {
+        "PolaRuang": "Kawasan Perkantoran",
+        "Total": 1.824695176
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 56.84154676
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 2.328173096
+      }
+    ]
+  },
+  {
+    "fill": "#FFBA08",
+    "indx": "cts",
+    "id": "Kelurahan Sungai Siring",
+    "ids": "Sungai Siring",
+    "lw": 3622.219365,
+    "A": 391.9844037,
+    "B": 1121.169701,
+    "C": 2109.06526,
+    "AP": "11%",
+    "BP": "31%",
+    "CP": "58%",
+    "RTP": 15,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 14.4923318
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 3.685325949
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 31.56031898
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 111.3113862
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 9.85622662
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 6.942578632
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 212.3864636
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 1.749771909
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 15.35503825
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 78.20794454
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 151.9494957
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 542.9521222
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 3.897546392
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 8.959203796
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 282.4453328
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 37.40301747
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 3.103847325
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 552.1981874
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 244.8379294
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 1101.513778
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 3.09336226
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 1.66713786
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 81.47098952
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 121.1800289
+      }
+    ]
+  },
+  {
+    "fill": "#3F88C5",
+    "indx": "cts",
+    "id": "Kelurahan Sempaja Timur",
+    "ids": "Sempaja Timur",
+    "lw": 593.0031572,
+    "A": 298.893192,
+    "B": 185.8287675,
+    "C": 108.2811977,
+    "AP": "50%",
+    "BP": "31%",
+    "CP": "18%",
+    "RTP": 35,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 38.64778884
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.947556756
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 12.88145121
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 1.635150622
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 31.78051684
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 192.4472956
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 20.55343215
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 15.78227553
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.960347425
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 4.319300971
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 0.929108491
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 34.21360313
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 119.7289583
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 9.895173608
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 5.596326649
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.023875786
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 2.218968885
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 0.322751721
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 16.66319306
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 80.92480129
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 2.531280357
+      }
+    ]
+  },
+  {
+    "fill": "#032B43",
+    "indx": "cts",
+    "id": "Kelurahan Tanah Merah",
+    "ids": "Tanah Merah",
+    "lw": 4874.239374,
+    "A": 309.3151945,
+    "B": 1406.968545,
+    "C": 3157.955634,
+    "AP": "6%",
+    "BP": "29%",
+    "CP": "65%",
+    "RTP": 16,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 13.79306872
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.325737926
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 22.95793783
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 0.489006224
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 0.152096788
+      },
+      {
+        "PolaRuang": "Kawasan Pariwisata",
+        "Total": 7.578981383
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 38.61575085
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 32.1651756
+      },
+      {
+        "PolaRuang": "Kawasan Pertahanan dan Keamanan",
+        "Total": 0.004897573
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 137.6120308
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 6.03232386
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 44.47736789
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 5.11081899
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 5.230441079
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 2.219681971
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 244.8341702
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 114.6319538
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 1.389342673
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Kawasan Hortikultura",
+        "Total": 0.4118934
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Kawasan Perumahan",
+        "Total": 0.136511322
+      },
+      {
+        "PolaRuang": "Kawasan Pariwisata",
+        "Total": 30.31062593
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 174.9814298
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 14.08628218
+      },
+      {
+        "PolaRuang": "Kawasan Pertahanan dan Keamanan",
+        "Total": 7.673735651
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 752.8555412
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 15.60609318
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 40.5161224
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 2.084720328
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 1.120562414
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 5.533552738
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 981.247454
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 175.8035931
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 0.574863304
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Kawasan Hortikultura",
+        "Total": 1.643787038
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Kawasan Perumahan",
+        "Total": 0.393452885
+      },
+      {
+        "PolaRuang": "Kawasan Pariwisata",
+        "Total": 21.96893089
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 323.4362829
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 18.20604237
+      },
+      {
+        "PolaRuang": "Kawasan Pertahanan dan Keamanan",
+        "Total": 6.294565634
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 1600.045684
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 11.04400094
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 5.541812445
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 5.101049539
+      }
+    ]
+  },
+  {
+    "fill": "#136F63",
+    "indx": "cts",
+    "id": "Kelurahan Budaya Pampang",
+    "ids": "Budaya Pampang",
+    "lw": 2786.488847,
+    "A": 317.3785554,
+    "B": 860.3519605,
+    "C": 1608.758331,
+    "AP": "11%",
+    "BP": "31%",
+    "CP": "58%",
+    "RTP": 0,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 77.84243033
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 19.19687448
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 29.93811482
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 34.67035363
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 1.425049369
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 154.2112767
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 0.09445613
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 32.0061369
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 259.0346891
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 7.025134417
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 53.70599962
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 138.3286353
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 1.592825639
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 342.8380491
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 25.8204904
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 2.02000059
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 741.1542228
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 38.55026955
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 15.35627229
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 348.0066121
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 0.470816669
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 427.9584748
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 35.24166193
+      }
+    ]
+  },
+  {
+    "fill": "#06D6A0",
+    "indx": "cts",
+    "id": "Kelurahan Sempaja Barat",
+    "ids": "Sempaja Barat",
+    "lw": 180.859627,
+    "A": 47.81707159,
+    "B": 90.97386948,
+    "C": 42.06868592,
+    "AP": "26%",
+    "BP": "50%",
+    "CP": "23%",
+    "RTP": 0,
+    "nA": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.659358512
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 15.035714
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 32.12199909
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 1.542726969
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 25.78221045
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 63.64893206
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.178912557
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 7.188096358
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 34.701677
+      }
+    ]
+  },
+  {
+    "fill": "#489b11",
+    "indx": "cts",
+    "id": "Kelurahan Sempaja Utara",
+    "ids": "Sempaja Utara",
+    "lw": 7257.868828,
+    "A": 403.8002461,
+    "B": 1630.68503,
+    "C": 5223.383552,
+    "AP": "6%",
+    "BP": "22%",
+    "CP": "72%",
+    "RTP": 29,
+    "nA": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.314506158
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 20.60383426
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 2.332859886
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 47.18991861
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 189.0308835
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 112.6001505
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 31.72809322
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 1.19136087
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 0.499219983
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 557.184605
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 51.56373228
+      },
+      {
+        "PolaRuang": "Kawasan Infrastruktur Perkotaan",
+        "Total": 1.064925025
+      },
+      {
+        "PolaRuang": "Kawasan Pembangkitan Tenaga Listrik",
+        "Total": 0.150658431
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 170.8244498
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 817.58625
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 21.44411228
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 9.17571608
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.191775658
+      },
+      {
+        "PolaRuang": "Kawasan Fasilitas Umum dan Fasilitas Sosial",
+        "Total": 5.51567787
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 2540.624338
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 160.4508764
+      },
+      {
+        "PolaRuang": "Kawasan Infrastruktur Perkotaan",
+        "Total": 34.7137537
+      },
+      {
+        "PolaRuang": "Kawasan Pembangkitan Tenaga Listrik",
+        "Total": 0.816802587
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 321.7260742
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 2149.892259
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 4.385089078
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 5.066905839
+      }
+    ]
+  },
+  {
+    "fill": "#4D0707",
+    "indx": "cts",
+    "id": "Kelurahan Lempake",
+    "ids": "Lempake",
+    "lw": 3448.840096,
+    "A": 722.5849461,
+    "B": 808.057015,
+    "C": 1918.198135,
+    "AP": "21%",
+    "BP": "23%",
+    "CP": "56%",
+    "RTP": 94,
+    "nA": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 235.5337952
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.035856744
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 11.91660481
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 0.09111391
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 0.015099569
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 36.79726059
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 14.3332078
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 168.2549485
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 1.486658509
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 149.1307577
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 104.9896427
+      }
+    ],
+    "nB": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 129.5305584
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.573932378
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 115.3631199
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 0.029183757
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 0.008506061
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 66.82796809
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 54.2004458
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 379.5805207
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 8.354595321
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 44.26947265
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 0.190321766
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 9.128390183
+      }
+    ],
+    "nC": [
+      {
+        "PolaRuang": "Badan Air",
+        "Total": 47.46553505
+      },
+      {
+        "PolaRuang": "Badan Jalan",
+        "Total": 0.155761644
+      },
+      {
+        "PolaRuang": "Kawasan Hortikultura",
+        "Total": 783.8572222
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap",
+        "Total": 0.327121566
+      },
+      {
+        "PolaRuang": "Kawasan Hutan Produksi Tetap/Badan Jalan",
+        "Total": 0.013603046
+      },
+      {
+        "PolaRuang": "Kawasan Perdagangan dan Jasa",
+        "Total": 78.21019574
+      },
+      {
+        "PolaRuang": "Kawasan Perkantoran",
+        "Total": 2.854178944
+      },
+      {
+        "PolaRuang": "Kawasan Perlindungan Setempat",
+        "Total": 164.9368404
+      },
+      {
+        "PolaRuang": "Kawasan Perumahan",
+        "Total": 810.6640379
+      },
+      {
+        "PolaRuang": "Kawasan Peternakan",
+        "Total": 6.278526394
+      },
+      {
+        "PolaRuang": "Kawasan Tanaman Pangan",
+        "Total": 16.67467933
+      },
+      {
+        "PolaRuang": "Kawasan Transportasi",
+        "Total": 0.571405546
+      },
+      {
+        "PolaRuang": "Ruang Terbuka Hijau",
+        "Total": 6.189027318
+      }
+    ]
+  }
+]

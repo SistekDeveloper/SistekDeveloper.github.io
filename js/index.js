@@ -1,5 +1,5 @@
-let width = 725,
-  height = 550;
+let width = 850,
+  height = 600;
 
 const svg = document.querySelector("#fullmap");
 const g = document.querySelector("#MapGroup");
@@ -7,7 +7,7 @@ const h2head = document.querySelector(".headline .headHover h4");
 const RedsZone = document.querySelectorAll("#RedsZone path")
 const SesBesPath = document.querySelectorAll("#KESES g")
 const Buttons = document.querySelector(".RZButton")
-const water = document.querySelector(".water")
+const water = document.querySelector("#Tambahan")
 
 function spEnter() {
   h2head.style.transform = "translateX(0%)";
@@ -53,7 +53,7 @@ function currentContents() {
 
   water.style.display = "unset"
   myPolaris.innerHTML = " ";
-  conHD.innerHTML = "Kabupaten Bulungan";
+  conHD.innerHTML = "Kecamatan Samarinda Utara";
   Buttons.style.display = "none"
   RedsZone.forEach(RZcurr => {
     RZcurr.style.display = "none"
@@ -62,7 +62,7 @@ function currentContents() {
     SBPcurr.style.display = "none"
   })
   let fetchCurr = async () => {
-    await fetch("/json/data.json")
+    await fetch("/json/index.json")
       .then((Response) => Response.json())
       .then((data) => contents(data));
   };
@@ -73,29 +73,32 @@ function currentContents() {
     let divCont = document.createElement("tbody");
     const divTab = document.querySelector(".table-cts thead");
     divTab.innerHTML = `<tr>
-                          <th class="cch0"></th>
-                          <th class="cch1">Kecamatan</th>
-                          <th class="cch2">Total Kawasan</th>
-                          <th class="cch3">Kawasan Potensi</th>
+                          <th class="cch0" rowspan="2"></th>
+                          <th class="cch1" rowspan="2">Kelurahan</th>
+                          <th class="cch2" rowspan="2">Total Kawasan</th>
+                          <th class="cch3 cchs" colspan="3">Kesesuaian Lahan (ha)</th>
+                        </tr>
+                        <tr>
+                          <th class="cch3">Sesuai</th>
+                          <th class="cch3">Bersyarat</th>
+                          <th class="cch3">Tidak Sesuai</th>
                         </tr>
                        `;
     data.map((datas) => {
       const ids = datas.ids;
       const indx = datas.indx;
-      const GT = new Intl.NumberFormat("id-ID", {
-        style: "decimal",
-        maximumFractionDigits: 2,
-      }).format(datas.GrandTotal);
-      const SUM = new Intl.NumberFormat("id-ID", {
-        style: "decimal",
-        maximumFractionDigits: 2,
-      }).format(datas.SUM);
+      const lw = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.lw);
+      const A = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.A);
+      const B = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.B);
+      const C = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.C);
       divCont.innerHTML += `
                               <tr id="${indx}" data-vsx="${datas.id}">
                                 <td class="cc0" style="background-color:${datas.fill};"></td>
                                 <td class="cc1">${ids}</td>
-                                <td class="cc2">${GT}</td>
-                                <td class="cc3">${SUM}</td>
+                                <td class="cc2">${lw}</td>
+                                <td class="cc3">${A}</td>
+                                <td class="cc3">${B}</td>
+                                <td class="cc3">${C}</td>
                               </tr>
                               `;
     });
@@ -103,50 +106,106 @@ function currentContents() {
     content.innerHTML = divCont.innerHTML;
 
     // Sec 2
+    // SCND 1
     let scndHide = document.createElement("tbody");
     let scndHeadHide = document.createElement("tbody")
     scndHeadHide.innerHTML += `<tr>
-                                  <th class="scnd1" rowspan="2">Kawasan Lahan Perikanan</th>
-                                  <th class="scnd-sc" colspan="3">Luas Kawasan</th>
-                                  <th class="scnd4" rowspan="2">Total</th>
-                              </tr>
-                              <tr>
-                                  <th class="scnd2">Sesuai</th>
-                                  <th class="scnd3">Sesuai Bersyarat</th>
+                                  <th class="scnd1">Pola Ruang</th>
+                                  <th class="scnd-sc">Luasan</th>
                               </tr>`;
     const tabScndHead = document.querySelector(".table-scnd-thead tbody");
     tabScndHead.innerHTML = scndHeadHide.innerHTML;
 
 
     data.map(datas => {
-      let potensiSB = datas.potensionSB;
+      let Pola = datas.nA;
             scndHide.innerHTML += `<tr>
                                         <td colspan="4" class="KecNom">${datas.id}</td>
                                     </tr>`
-      potensiSB.forEach(indatas => {
-        let Ses = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.Sesuai)
-        let SesBes = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.SesuaiBersyarat)
-        let GraTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.GrandTotal)
+      Pola.forEach(indatas => {
+        let Tkawa = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.Total)
         scndHide.innerHTML += `<tr>
-                                    <td class="kws">${indatas.Kawasan}</td>
-                                    <td class="kws1">${Ses}</td>
-                                    <td class="kws1">${SesBes}</td>
-                                    <td class="kws1">${GraTot}</td>
+                                    <td class="kws">${indatas.PolaRuang}</td>
+                                    <td class="kws1">${Tkawa}</td>
                                 </tr>
                                 `
       });
-      let SesTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.Sesuai)
-      let SesBesTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.SesuaiBersyarat)
-      let GarToTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.GrandTotal)
+      let SesTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.A)
       scndHide.innerHTML+=`<tr>
                             <td class="tot-kws">Grand Total</td>
                             <td class="kws2">${SesTot}</td>
-                            <td class="kws2">${SesBesTot}</td>
-                            <td class="kws2">${GarToTot}</td>
                           </tr>`
     })
     const tabScndBody = document.querySelector(".table-scnd-tbody tbody");
     tabScndBody.innerHTML = scndHide.innerHTML;
+
+    // SCND 2
+    let scndHide2 = document.createElement("tbody");
+    let scndHeadHide2 = document.createElement("tbody")
+    scndHeadHide2.innerHTML += `<tr>
+                                  <th class="scnd1">Pola Ruang</th>
+                                  <th class="scnd-sc">Luasan</th>
+                              </tr>`;
+    const tabScndHead2 = document.querySelector(".table-scnd-thead2 tbody");
+    tabScndHead2.innerHTML = scndHeadHide2.innerHTML;
+
+
+    data.map(datas => {
+      let Pola2 = datas.nB;
+            scndHide2.innerHTML += `<tr>
+                                        <td colspan="4" class="KecNom">${datas.id}</td>
+                                    </tr>`
+      Pola2.forEach(indatas => {
+        let Tkawa2 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.Total)
+        scndHide2.innerHTML += `<tr>
+                                    <td class="kws">${indatas.PolaRuang}</td>
+                                    <td class="kws1">${Tkawa2}</td>
+                                </tr>
+                                `
+      });
+      let SesTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.B)
+      scndHide2.innerHTML+=`<tr>
+                            <td class="tot-kws">Grand Total</td>
+                            <td class="kws2">${SesTot}</td>
+                          </tr>`
+    })
+    const tabScndBody2 = document.querySelector(".table-scnd-tbody2 tbody");
+    tabScndBody2.innerHTML = scndHide2.innerHTML;
+
+    // SCND 3
+    let scndHide3 = document.createElement("tbody");
+    let scndHeadHide3 = document.createElement("tbody")
+    scndHeadHide3.innerHTML += `<tr>
+                                  <th class="scnd1">Pola Ruang</th>
+                                  <th class="scnd-sc">Luasan</th>
+                              </tr>`;
+    const tabScndHead3 = document.querySelector(".table-scnd-thead3 tbody");
+    tabScndHead3.innerHTML = scndHeadHide3.innerHTML;
+
+
+    data.map(datas => {
+      let Pola3 = datas.nC;
+            scndHide3.innerHTML += `<tr>
+                                        <td colspan="4" class="KecNom">${datas.id}</td>
+                                    </tr>`
+      Pola3.forEach(indatas => {
+        let Tkawa3 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(indatas.Total)
+        scndHide3.innerHTML += `<tr>
+                                    <td class="kws">${indatas.PolaRuang}</td>
+                                    <td class="kws1">${Tkawa3}</td>
+                                </tr>
+                                `
+      });
+      let SesTot = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.C)
+      scndHide3.innerHTML+=`<tr>
+                            <td class="tot-kws">Grand Total</td>
+                            <td class="kws2">${SesTot}</td>
+                          </tr>`
+    })
+    const tabScndBody3 = document.querySelector(".table-scnd-tbody3 tbody");
+    tabScndBody3.innerHTML = scndHide3.innerHTML;
+
+    // Chart
     const chartCurr = document.querySelector("#myPolar");
     chartCurr.innerHTML = "<canvas id='pieCurr'>_</canvas>";
 
@@ -155,8 +214,8 @@ function currentContents() {
     function CobaPie(){
       const myPie = document.getElementById("pieCurr").getContext("2d");
       const IDinPIE = data.map(datas=>{return datas.id})
-      const SUMinPIE = data.map(datas=>{return datas.SUM})
       const fillingPIE = data.map(datas => {return datas.fill})
+      let SUMinPIE = data.map(datas=>{return datas.lw})
       const SumOfPie = SUMinPIE.reduce((acc, curv) => {return acc + curv},0)
       const percentagePie = [];
       SUMinPIE.forEach(pc => {
@@ -177,7 +236,7 @@ function currentContents() {
           labels: IDinPIE,
         },
         options: {
-          
+
         },
         plugins: [ChartDataLabels],
           options: {
@@ -223,7 +282,7 @@ svg.addEventListener("click", function (e) {
   if (e.target.classList == "path") {
     // bounding client to zoom elements
     const bounds = e.target.getBBox();
-    const padding = 25;
+    const padding = 5;
     const x0 = bounds.x - padding;
     const x1 = bounds.x + bounds.width + padding;
     const y0 = bounds.y - padding;
@@ -299,7 +358,7 @@ svg.addEventListener("click", function (e) {
         // Stats data
 
         let fetching = async () => {
-          await fetch("/json/data.json")
+          await fetch("/json/index.json")
             .then((Response) => Response.json())
             .then((data) => mainContent(data));
         };
@@ -312,7 +371,7 @@ svg.addEventListener("click", function (e) {
               let tabCoe = document.createElement("tbody");
               const divTabCoe = document.querySelector(".table-cts thead");
               divTabCoe.innerHTML = `<tr>
-                          <th class="cch1">Jenis Usaha</th>
+                          <th class="cch1">Kesesuaian</th>
                           <th class="cch2">Luas Lahan</th>
                           <th class="cch3">Persentase Lahan</th>
                           <th class="lbl">Label</th>
@@ -322,117 +381,131 @@ svg.addEventListener("click", function (e) {
               headname.innerHTML = datas.id;
               const idsCoe = datas.ids;
               const indxCoe = datas.indx;
-              const Kolam = new Intl.NumberFormat("id-ID", {
-                style: "decimal",
-                maximumFractionDigits: 2,
-              }).format(datas.Kolam);
-              const PLKolam = new Intl.NumberFormat("id-ID", {
-                style: "percent",
-                maximumFractionDigits: 2,
-              }).format(datas.Kolam / datas.SUM);
-              const Minapadi = new Intl.NumberFormat("id-ID", {
-                style: "decimal",
-                maximumFractionDigits: 2,
-              }).format(datas.Minapadi);
-              const PLMinapadi = new Intl.NumberFormat("id-ID", {
-                style: "percent",
-                maximumFractionDigits: 2,
-              }).format(datas.Minapadi / datas.SUM);
-              const Tambak = new Intl.NumberFormat("id-ID", {
-                style: "decimal",
-                maximumFractionDigits: 2,
-              }).format(datas.Tambak);
-              const PLTambak = new Intl.NumberFormat("id-ID", {
-                style: "percent",
-                maximumFractionDigits: 2,
-              }).format(datas.Tambak / datas.SUM);
-              const Karamba = new Intl.NumberFormat("id-ID", {
-                style: "decimal",
-                maximumFractionDigits: 2,
-              }).format(datas.Karamba);
-              const PLKaramba = new Intl.NumberFormat("id-ID", {
-                style: "percent",
-                maximumFractionDigits: 2,
-              }).format(datas.Karamba / datas.SUM);
-              const SumKMTK = new Intl.NumberFormat("id-ID", {
-                style: "decimal",
-                maximumFractionDigits: 2,
-              }).format(
-                datas.Kolam + datas.Minapadi + datas.Tambak + datas.Karamba
-              );
+              const ctA = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.A);
+              const Aps = new Intl.NumberFormat("id-ID", { style: "percent", maximumFractionDigits: 2, }).format(datas.A / datas.lw);
+              const ctB = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.B);
+              const Bps = new Intl.NumberFormat("id-ID", { style: "percent", maximumFractionDigits: 2, }).format(datas.B / datas.lw);
+              const ctC = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format(datas.C);
+              const Cps = new Intl.NumberFormat("id-ID", { style: "percent", maximumFractionDigits: 2, }).format(datas.C / datas.lw);
+              const SumKMTK = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2, }).format( datas.Kolam + datas.Minapadi + datas.Tambak + datas.Karamba );
               tabCoe.innerHTML += `
                               <tr>
-                                <td class="cc1">Kolam</td>
-                                <td class="cc2">${Kolam}</td>
-                                <td class="cc3">${PLKolam}</td>
+                                <td class="cc1">Sesuai</td>
+                                <td class="cc2">${ctA}</td>
+                                <td class="cc3">${Aps}</td>
                                 <td class="lbl" style="background-color:rgb(75, 192, 192)"></td>
                               </tr>
                               <tr>
-                                <td class="cc1">Minapadi</td>
-                                <td class="cc2">${Minapadi}</td>
-                                <td class="cc3">${PLMinapadi}</td>
+                                <td class="cc1">Sesuai Bersyarat</td>
+                                <td class="cc2">${ctB}</td>
+                                <td class="cc3">${Bps}</td>
                                 <td class="lbl" style="background-color:rgb(255, 205, 86)"></td>
                               </tr>
                               <tr>
-                                <td class="cc1">Karamba</td>
-                                <td class="cc2">${Karamba}</td>
-                                <td class="cc3">${PLKaramba}</td>
-                                <td class="lbl" style="background-color:rgb(54, 162, 235)"></td>
-                              </tr>
-                              <tr>
-                                <td class="cc1">Tambak</td>
-                                <td class="cc2">${Tambak}</td>
-                                <td class="cc3">${PLTambak}</td>
+                                <td class="cc1">Tidak Sesuai</td>
+                                <td class="cc2">${ctC}</td>
+                                <td class="cc3">${Cps}</td>
                                 <td class="lbl" style="background-color:rgb(255, 99, 132)"></td>
                               </tr>
                               `;
               const content = document.querySelector(".table-cts tbody");
               content.innerHTML = tabCoe.innerHTML;
-              // SEC2
+              // SEC2 bag 1
               let thbstart = document.querySelector(".th-tb-start")
-              thbstart.height = "20%"
               let thbend = document.querySelector(".th-tb-end")
-              thbend.height = "80%"
               thbend.overflowY = "unset"
               let scndHeadClck = document.querySelector(".table-scnd-thead")
               scndHeadClck.innerHTML = `<tr>
-                                          <th class="PL" rowspan="2">Potensi Lahan</th>
-                                          <th class="LLP" colspan="2">Luas Lahan Potensi</th>
-                                          <th class="PU" rowspan="2">Potensi Usaha</th>
-                                          <th class="LU" colspan="3">Luasan Usaha Yang Direkomendasikan</th>
-                                        </tr>
-                                        <tr>
-                                          <th class="LLP1">Sesuai</th>
-                                          <th class="LLP2">Sesuai Bersyarat</th>
-                                          <th class="LU1">Sesuai</th>
-                                          <th class="LU2">Sesuai Bersyarat</th>
-                                          <th class="LU3">Total</th>
+                                          <th class="PL">Pola Ruang</th>
+                                          <th class="LLP">Luasan</th>
                                         </tr>
                        `;
               let scndHiddenClck = document.createElement("tbody");
-              let scndPotensi = datas.potension;
+              let scndPotensi = datas.nA;
               scndPotensi.forEach(nandatas => {
-                let pts = nandatas.Potensi;
-                let SesLLP = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Sesuai)
-                let SesBesLLP = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Bersyarat)
-                let Us = nandatas.Usaha
-                let SesLU = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Sesuai2)
-                let SesBesLU = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Bersyarat2)
-                let TotLU = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Totaly);
+                let Polas = nandatas.PolaRuang;
+                console.log(Polas)
+                let Totals = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Total)
                 scndHiddenClck.innerHTML += `
                                             <tr>
-                                              <td class="bod-PL">${pts}</td>
-                                              <td class="bod-LLP1">${SesLLP}</td>
-                                              <td class="bod-LLP2">${SesBesLLP}</td>
-                                              <td class="bod-PU">${Us}</td>
-                                              <td class="bod-LU1">${SesLU}</td>
-                                              <td class="bod-LU2">${SesBesLU}</td>
-                                              <td class="bod-LU3">${TotLU}</td>
+                                              <td class="bod-PL">${Polas}</td>
+                                              <td class="bod-LLP1">${Totals}</td>
                                             </tr>
                                             `;
+                                          })
+                let GT = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(datas.lw)
+                scndHiddenClck.innerHTML += `
+                                          <tr>
+                                            <td class="tot-kws">Grand Total</td>
+                                            <td class="kws2">${GT}</td>
+                                          </tr>
+                                          `;
                 let scndBodyClck = document.querySelector(".table-scnd-tbody tbody");
-                scndBodyClck.innerHTML = scndHiddenClck.innerHTML;
-              })
+                    scndBodyClck.innerHTML = scndHiddenClck.innerHTML;
+              // SEC2 bag 2
+              let thbstart2 = document.querySelector(".th-tb-start2")
+              let thbend2 = document.querySelector(".th-tb-end2")
+              thbend2.overflowY = "unset"
+              let scndHeadClck2 = document.querySelector(".table-scnd-thead2")
+              scndHeadClck2.innerHTML = `<tr>
+                                          <th class="PL">Pola Ruang</th>
+                                          <th class="LLP">Luasan</th>
+                                        </tr>
+                       `;
+              let scndHiddenClck2 = document.createElement("tbody");
+              let scndPotensi2 = datas.nB;
+              scndPotensi2.forEach(nandatas => {
+                let Polas2 = nandatas.PolaRuang;
+                console.log(Polas2)
+                let Totals2 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Total)
+                scndHiddenClck2.innerHTML += `
+                                            <tr>
+                                              <td class="bod-PL">${Polas2}</td>
+                                              <td class="bod-LLP1">${Totals2}</td>
+                                            </tr>
+                                            `;
+                                          })
+                let GT2 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(datas.lw)
+                scndHiddenClck2.innerHTML += `
+                                          <tr>
+                                            <td class="tot-kws">Grand Total</td>
+                                            <td class="kws2">${GT2}</td>
+                                          </tr>
+                                          `;
+                let scndBodyClck2 = document.querySelector(".table-scnd-tbody2 tbody");
+                    scndBodyClck2.innerHTML = scndHiddenClck2.innerHTML;
+              // SEC2 Bag 3
+              let thbstart3 = document.querySelector(".th-tb-start3")
+              let thbend3 = document.querySelector(".th-tb-end3")
+              thbend3.overflowY = "unset"
+              let scndHeadClck3 = document.querySelector(".table-scnd-thead3")
+              scndHeadClck3.innerHTML = `<tr>
+                                          <th class="PL">Pola Ruang</th>
+                                          <th class="LLP">Luasan</th>
+                                        </tr>
+                       `;
+              let scndHiddenClck3 = document.createElement("tbody");
+              let scndPotensi3 = datas.nC;
+              scndPotensi3.forEach(nandatas => {
+                let Polas3 = nandatas.PolaRuang;
+                console.log(Polas3)
+                let Totals3 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(nandatas.Total)
+                scndHiddenClck3.innerHTML += `
+                                            <tr>
+                                              <td class="bod-PL">${Polas3}</td>
+                                              <td class="bod-LLP1">${Totals3}</td>
+                                            </tr>
+                                            `;
+                                          })
+                let GT3 = new Intl.NumberFormat("id-ID", { style: "decimal", maximumFractionDigits: 2 }).format(datas.lw)
+                scndHiddenClck3.innerHTML += `
+                                          <tr>
+                                            <td class="tot-kws">Grand Total</td>
+                                            <td class="kws2">${GT3}</td>
+                                          </tr>
+                                          `;
+                let scndBodyClck3 = document.querySelector(".table-scnd-tbody3 tbody");
+                    scndBodyClck3.innerHTML = scndHiddenClck3.innerHTML;
             }
           });
         }
@@ -442,7 +515,7 @@ svg.addEventListener("click", function (e) {
     elements.forEach(function (corePolar) {
       if (e.target === corePolar) {
         let fetcher = async () => {
-          await fetch("/json/data.json")
+          await fetch("/json/index.json")
             .then((Response) => Response.json())
             .then((data) => PolarChart(data));
         };
@@ -458,22 +531,20 @@ svg.addEventListener("click", function (e) {
             }
             function inPolars() {
               const myChart = document.getElementById("myChart");
-              const dtKolam = datas.Kolam/datas.SUM*100;
-              const dtMinapadi = datas.Minapadi/datas.SUM*100;
-              const dtKaramba = datas.Karamba/datas.SUM*100;
-              const dtTambak = datas.Tambak/datas.SUM*100;
-              const datanya = [dtKolam, dtMinapadi, dtKaramba, dtTambak];
+              const dtA = datas.A/datas.lw*100;
+              const dtB = datas.B/datas.lw*100;
+              const dtC = datas.C/datas.lw*100;
+              const datanya = [dtA, dtB, dtC];
               new Chart(myChart, {
                 type: "doughnut",
                 data: {
-                  labels: ["Kolam", "Minapadi", "Karamba", "Tambak"],
+                  labels: ["Sesuai", "Sesuai Bersyarat", "Tidak Sesuai"],
                   datasets: [
                     {
                       data: datanya,
                       backgroundColor: [
                         'rgb(75, 192, 192)',
                         'rgb(255, 205, 86)',
-                        'rgb(54, 162, 235)',
                         'rgb(255, 99, 132)'
                       ],
                     },
