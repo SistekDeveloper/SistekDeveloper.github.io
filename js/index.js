@@ -16,7 +16,6 @@ function spLeave() {
   h2head.style.transform = "translateX(-100%)";
 }
 
-// Path Bulungan
 const elements = document.querySelectorAll("#path");
 
 elements.forEach(function (element) {
@@ -596,8 +595,6 @@ svg.addEventListener("click", function (e) {
     g.setAttribute("transform", "translate(0, 0) scale(1)");
     elements.forEach(function (element) {
       element.classList.remove("active");
-      // let c1Title = document.querySelector(".c1-head h3");
-      // c1Title.innerHTML = "Kabupaten Bulungan";
     });
     return currentContents();
   }
@@ -609,10 +606,8 @@ function RZButton(){
   if(RZon.style.display === "none"){
     RZon.style.display = "unset"
     SBon.style.display = "none"
-    water.style.display = "none"
   }else{
     RZon.style.display = "none"
-    water.style.display = "unset"
   }
 }
 
@@ -622,9 +617,7 @@ function SBButton(){
   if(SBon.style.display === "none"){
     SBon.style.display = "unset"
     RZon.style.display = "none"
-    water.style.display = "none"
   }else{
     SBon.style.display = "none"
-    water.style.display = "unset"
   }
 }

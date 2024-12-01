@@ -107,11 +107,6 @@ section {
     stroke-width: .5;
 }
 
-.st1{
-    fill: #ff0000;
-}
-
-
 .active {
     fill: rgb(255, 255, 255);
 }
@@ -122,7 +117,7 @@ section {
 }
 
 .Red-Zone{
-    fill: rgb(249, 38, 5);
+    fill: rgb(241, 30, 30);
     pointer-events: none;
 }
 
@@ -140,20 +135,26 @@ section {
     position: absolute;
     right: .5rem;
     bottom: .5rem;
+    display: flex;
+    width: 100px;
 }
 
 .RZButton button{
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
-    padding: .4rem .8rem;
+    width: 100px;
+    height: 40px;
     border-radius: .4rem;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-family: "Rubik", system-ui;
     font-size: .8rem;
     font-weight: 600;
+}
+
+.RZButton button:nth-child(1){
+    margin-bottom: .5rem;
 }
 
 .RZButton button:hover{
