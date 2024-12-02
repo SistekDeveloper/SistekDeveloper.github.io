@@ -537,11 +537,11 @@ footer p {
         justify-content: center;
         align-items: center;
     }
-    .th-tb-start{
+    .th-tb-start, .th-tb-start2, .th-tb-start3 {
         height: max-content;
         font-size: .8rem;
     }
-    .th-tb-end{
+    .th-tb-end, .th-tb-end2, .th-tb-end3 {
         font-size: .8rem;
     }
     .KecNom{
@@ -598,11 +598,11 @@ footer p {
     #sec2{
         padding-bottom: 0;
     }
-    .th-tb-start{
+    .th-tb-start, .th-tb-start2, .th-tb-start3 {
         padding: 0 .5rem 0 .5rem;
         font-size: .6rem;
     }
-    .th-tb-end{
+    .th-tb-end, .th-tb-end2, .th-tb-end3 {
         padding: 0 .5rem .2rem .5rem;
         font-size: .6rem;
     }
